@@ -8,6 +8,8 @@
       <outline text="digiday.com" title="digiday.com" type="rss" xmlUrl="https://digiday.com/feed/" htmlUrl="https://digiday.com" />
       <outline text="socialmediatoday.com" title="socialmediatoday.com" type="rss" xmlUrl="https://www.socialmediatoday.com/feeds/news/" htmlUrl="https://www.socialmediatoday.com" />
       <outline text="adweek.com" title="adweek.com" type="rss" xmlUrl="https://www.adweek.com/feed/" htmlUrl="https://www.adweek.com" />
+      <outline text="marketingweek.com" title="marketingweek.com" type="rss" xmlUrl="https://www.marketingweek.com/feed/" htmlUrl="https://www.marketingweek.com" />
+      <outline text="mumbrella.com.au" title="mumbrella.com.au" type="rss" xmlUrl="https://mumbrella.com.au/feed" htmlUrl="https://mumbrella.com.au" />
     </outline>
     <outline text="英文游戏资讯">
       <outline text="feeds.ign.com" title="feeds.ign.com" type="rss" xmlUrl="https://feeds.ign.com/ign/all" htmlUrl="https://feeds.ign.com" />
@@ -18,6 +20,12 @@
       <outline text="gematsu.com" title="gematsu.com" type="rss" xmlUrl="https://www.gematsu.com/feed/" htmlUrl="https://www.gematsu.com" />
       <outline text="videogameschronicle.com" title="videogameschronicle.com" type="rss" xmlUrl="https://www.videogameschronicle.com/feed/" htmlUrl="https://www.videogameschronicle.com" />
       <outline text="automaton-media.com" title="automaton-media.com" type="rss" xmlUrl="https://automaton-media.com/feed/" htmlUrl="https://automaton-media.com" />
+      <outline text="kotaku.com" title="kotaku.com" type="rss" xmlUrl="https://kotaku.com/rss" htmlUrl="https://kotaku.com" />
+      <outline text="polygon.com" title="polygon.com" type="rss" xmlUrl="https://www.polygon.com/rss/index.xml" htmlUrl="https://www.polygon.com" />
+      <outline text="gamerant.com" title="gamerant.com" type="rss" xmlUrl="https://gamerant.com/feed/" htmlUrl="https://gamerant.com" />
+      <outline text="siliconera.com" title="siliconera.com" type="rss" xmlUrl="https://www.siliconera.com/feed/" htmlUrl="https://www.siliconera.com" />
+      <outline text="nintendoeverything.com" title="nintendoeverything.com" type="rss" xmlUrl="https://www.nintendoeverything.com/feed/" htmlUrl="https://www.nintendoeverything.com" />
+      <outline text="gameinformer.com" title="gameinformer.com" type="rss" xmlUrl="https://www.gameinformer.com/rss.xml" htmlUrl="https://www.gameinformer.com" />
     </outline>
     <outline text="英文游戏产业">
       <outline text="gamesindustry.biz" title="gamesindustry.biz" type="rss" xmlUrl="https://www.gamesindustry.biz/feed" htmlUrl="https://www.gamesindustry.biz" />
@@ -27,6 +35,8 @@
       <outline text="naavik.co" title="naavik.co" type="rss" xmlUrl="https://naavik.co/feed/" htmlUrl="https://naavik.co" />
       <outline text="newsletter.gamediscover.co" title="newsletter.gamediscover.co" type="rss" xmlUrl="https://newsletter.gamediscover.co/feed" htmlUrl="https://newsletter.gamediscover.co" />
       <outline text="80.lv" title="80.lv" type="rss" xmlUrl="https://80.lv/feed/" htmlUrl="https://80.lv" />
+      <outline text="gamedeveloper.com" title="gamedeveloper.com" type="rss" xmlUrl="https://www.gamedeveloper.com/rss.xml" htmlUrl="https://www.gamedeveloper.com" />
+      <outline text="pocketgamer.biz" title="pocketgamer.biz" type="rss" xmlUrl="https://www.pocketgamer.biz/rss/" htmlUrl="https://www.pocketgamer.biz" />
     </outline>
     <outline text="中文游戏媒体">
       <outline text="youxituoluo.com" title="youxituoluo.com" type="rss" xmlUrl="https://www.youxituoluo.com/feed" htmlUrl="https://www.youxituoluo.com" />

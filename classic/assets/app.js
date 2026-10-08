@@ -24,7 +24,7 @@ const state = {
   dailyBrief: null,
   storiesMerged: null,
   storiesDataUrl: "data/stories-merged.json",
-  activeSection: "hot",
+  activeSection: "all",
   boleView: "timeline",
   boleExpanded: false,
   listSort: "priority",
@@ -137,15 +137,14 @@ const SOURCE_KINDS = {
 };
 
 const SECTION_DEFS = [
-  { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
-  { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
-  { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
-  { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
-  { id: "hn", label: "HN热议", short: "HN", description: "Hacker News 过去 24 小时的 AI 关键词讨论与高互动 story" },
-  { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
-  { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
-  { id: "creator", label: "自媒体", short: "自媒体", description: "一周内互动热度优先，24 小时新内容额外加分" },
-  { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
+  { id: "all", label: "全部", short: "全部", description: "不筛选内容栏目，查看全部营销信号" },
+  { id: "collab", label: "联动联名", short: "联动", description: "IP联动、品牌联名、跨界合作案例" },
+  { id: "campaign", label: "营销活动", short: "营销", description: "营销campaign、投放买量、快闪代言" },
+  { id: "influencer", label: "达人营销", short: "达人", description: "达人、KOL、UP主、主播合作动态" },
+  { id: "ugc", label: "二创UGC", short: "二创", description: "二创、同人、cosplay、UGC内容" },
+  { id: "game_launch", label: "游戏宣发", short: "宣发", description: "公测、上线、周年、版本更新" },
+  { id: "esports", label: "电竞赛事", short: "电竞", description: "电竞赛事、直播、战队动态" },
+  { id: "industry", label: "行业动态", short: "行业", description: "公司战略、融资收购、财报营收" },
 ];
 
 const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
@@ -153,7 +152,7 @@ const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.
 const LIST_SORT_DEFS = [
   { id: "priority", label: "综合" },
   { id: "latest", label: "最新" },
-  { id: "ai", label: "高分" },
+  { id: "ai", label: "热度" },
   { id: "source", label: "来源" },
 ];
 
@@ -249,7 +248,7 @@ function setStats() {
   ];
   statsEl.setAttribute(
     "aria-label",
-    `过去 24 小时：AI 信号 ${fmtNumber(items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常` : "加载中"}`,
+    `过去 24 小时：营销信号 ${fmtNumber(items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常` : "加载中"}`,
   );
 
   const prefix = document.createElement("div");
@@ -295,7 +294,7 @@ function renderSourceStatusPill(errorMessage = "") {
 function renderStickySummary() {
   if (!stickySummaryTextEl) return;
   const filteredCount = getFilteredItems().length;
-  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.all;
   const query = state.query.trim();
   const site = state.siteFilter
     ? (currentSiteStats().find((row) => row.site_id === state.siteFilter)?.site_name || state.siteFilter)
@@ -303,13 +302,13 @@ function renderStickySummary() {
   const sourceType = sourceTypeSelectEl?.selectedOptions?.[0]?.textContent || "";
   const signalLevel = signalLevelSelectEl?.selectedOptions?.[0]?.textContent || "";
   const filters = [
-    state.activeSection === "hot" ? "" : section.label,
+    state.activeSection === "all" ? "" : section.label,
     site,
     state.sourceTypeFilter ? sourceType : "",
     state.signalLevelFilter ? signalLevel : "",
     query ? `搜索“${query}”` : "",
   ].filter(Boolean);
-  const mode = state.mode === "all" ? "全量" : "AI强相关";
+  const mode = state.mode === "all" ? "全量" : "营销相关";
   stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · ${mode}${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
 }
 
@@ -371,7 +370,7 @@ function siteRawPoolCount(siteId) {
 }
 
 function sourcePoolMeta(aiCount, rawCount, fallback) {
-  if (rawCount && rawCount !== aiCount) return `AI强相关 · 原始 ${fmtNumber(rawCount)} 条`;
+  if (rawCount && rawCount !== aiCount) return `营销相关 · 原始 ${fmtNumber(rawCount)} 条`;
   return fallback;
 }
 
@@ -442,7 +441,7 @@ function renderCoverageStrip(errorMessage = "") {
   const cards = [
     ["源健康", totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}` : "加载中", failedSites.length ? `${fmtNumber(failedSites.length)} 个失败源` : (errorMessage || "内置源正常"), failedSites.length ? "warn" : "ok"],
     ["今日覆盖池", `${fmtNumber(coverageCount)} 条`, allCount ? `全网抓取原始信号 · ${fmtNumber(allCount)} 条入池` : "全网抓取原始信号", "signal"],
-    ["AI强相关", `${fmtNumber(safeItems(state.itemsAi).length)} 条`, "24小时强相关信号", "signal"],
+    ["营销相关", `${fmtNumber(safeItems(state.itemsAi).length)} 条`, "24小时强相关信号", "signal"],
     ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
     ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
     ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
@@ -600,13 +599,13 @@ function renderSectionFilterSelect() {
 
 function renderSectionSummary(filteredItems = null) {
   if (!sectionSummaryEl) return;
-  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.all;
   const items = filteredItems || getFilteredItems();
   const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const sources = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
-  const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
+  const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "营销相关";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
-  sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "hot" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
+  sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "all" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
   renderStickySummary();
 }
 
@@ -686,7 +685,7 @@ function renderModeSwitch() {
   if (allDedupeToggleEl) allDedupeToggleEl.checked = state.allDedup;
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
   if (state.mode === "ai") {
-    modeHintEl.textContent = `AI强相关 · ${fmtNumber(safeItems(state.itemsAi).length)} 条`;
+    modeHintEl.textContent = `营销相关 · ${fmtNumber(safeItems(state.itemsAi).length)} 条`;
   } else {
     const allCount = effectiveAllItems().length;
     modeHintEl.textContent = `全量 · ${state.allDedup ? "去重开" : "去重关"} · ${fmtNumber(allCount)} 条`;
@@ -699,11 +698,11 @@ function renderModeSwitch() {
 }
 
 function listTitleText() {
-  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.all;
   const pool = state.mode === "all"
     ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
     : "情报流";
-  return state.activeSection === "hot" ? pool : `${section.label} · ${pool}`;
+  return state.activeSection === "all" ? pool : `${section.label} · ${pool}`;
 }
 
 function renderListSortTools() {
@@ -766,7 +765,7 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
     return safeItems(creatorSource).sort((a, b) => creatorHotScore(b) - creatorHotScore(a) || timelineMs(b) - timelineMs(a));
   }
   const source = Array.isArray(items) ? items : [];
-  if (sectionId === "hot") {
+  if (sectionId === "all") {
     return [...source].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
   }
   return source.filter((item) => itemMatchesSection(item, sectionId));
@@ -811,14 +810,12 @@ function scoreTone(score) {
 function itemLabelTone(item) {
   const label = item.ai_label || "";
   if (item.site_id === "official_ai") return "official";
-  if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
-  if (itemSections(item).has("creator")) return "creator";
-  if (label === "model_release") return "models";
-  if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
-  if (label === "research_paper") return "research";
-  if (label === "industry_business") return "industry";
-  if (label === "ai_product_update" || label === "agent_workflow" || label === "robotics") return "products";
-  if (itemSections(item).has("community")) return "community";
+  if (label === "collab" || label === "campaign") return "hot";
+  if (label === "influencer" || label === "ugc") return "creator";
+  if (label === "game_launch") return "official";
+  if (label === "esports") return "hot";
+  if (label === "industry") return "industry";
+  if (label === "product") return "products";
   return "default";
 }
 
@@ -895,21 +892,18 @@ function itemPriorityScore(item) {
 
 function labelText(item) {
   const labels = {
-    ai_general: "AI信号",
-    model_release: "模型发布",
-    agent_workflow: "Agent工作流",
-    ai_product_update: "产品更新",
-    developer_tooling: "开发工具",
-    developer_tool: "开发工具",
-    infrastructure: "基础设施",
-    infra_compute: "基础设施",
-    industry_business: "行业动态",
-    research_paper: "研究论文",
-    robotics: "机器人",
-    curated_hotlist: "热点",
-    ai_tech: "技术趋势",
+    collab: "联动联名",
+    campaign: "营销活动",
+    influencer: "达人营销",
+    ugc: "二创UGC",
+    game_launch: "游戏宣发",
+    esports: "电竞赛事",
+    industry: "行业动态",
+    product: "产品动态",
+    game: "游戏动态",
+    marketing: "营销信号",
   };
-  return labels[item.ai_label] || item.ai_label || "精选信号";
+  return labels[item.ai_label] || item.ai_label || "营销信号";
 }
 
 function itemHaystack(item) {
@@ -932,104 +926,41 @@ function matchesAny(text, patterns) {
 
 function itemSections(item) {
   const hay = itemHaystack(item);
-  const contentHay = [
-    item.title,
-    item.title_zh,
-    item.title_en,
-    item.title_original,
-    item.source,
-    item.site_name,
-    item.site_id,
-    ...(Array.isArray(item.ai_signals) ? item.ai_signals : []),
-  ].filter(Boolean).join(" ").toLowerCase();
   const sections = new Set();
   const label = item.ai_label || "";
-  const source = `${item.source || ""} ${item.site_name || ""}`.toLowerCase();
-  const hasExplicitModelTerm = matchesAny(contentHay, [
-    /gpt[-\s]?\d|claude|gemini|grok|llama|qwen|deepseek|mistral|kimi\s?k\d|glm|gemma|模型|model|weights|权重|多模态|视频生成|diffusion|sora|seedance|llm|大模型/,
-  ]);
-  const looksLikeToolOrProduct = matchesAny(hay, [
-    /skill|copilot|codex|cli|api|sdk|dashboard|workflow|tool|工具|助手|应用|插件|工作流|支付宝|浏览器|搜索/,
-  ]);
 
-  if (
-    hasExplicitModelTerm ||
-    (label === "model_release" && !looksLikeToolOrProduct)
-  ) sections.add("models");
+  // 营销标签 → 栏目（对齐手机版 AI_LABEL_SECTION_MAP）
+  const LABEL_TO_SECTION = {
+    collab: "collab",
+    campaign: "campaign",
+    influencer: "influencer",
+    ugc: "ugc",
+    game_launch: "game_launch",
+    esports: "esports",
+    industry: "industry",
+  };
+  if (LABEL_TO_SECTION[label]) sections.add(LABEL_TO_SECTION[label]);
 
-  if (
-    label === "ai_product_update" ||
-    label === "agent_workflow" ||
-    label === "robotics" ||
-    matchesAny(hay, [
-      /app|product|agent|workflow|siri|copilot|chatgpt|perplexity|runway|suno|支付宝|产品|应用|智能体|机器人|浏览器|搜索|助手|生成工具|办公|教育/,
-    ])
-  ) sections.add("products");
-
-  if (
-    label === "developer_tool" ||
-    label === "developer_tooling" ||
-    label === "infra_compute" ||
-    matchesAny(hay, [
-      /github|cursor|codex|copilot|openrouter|api|sdk|mcp|cli|framework|inference|推理|开发者|开源|代码|编程|算力|芯片|nvidia|cloud|部署|benchmarking|token/,
-    ])
-  ) sections.add("devtools");
-
-  if (
-    item.site_id === "hackernews" ||
-    item.site_id === "zeli" ||
-    source.includes("hacker news") ||
-    source.includes("hackernews") ||
-    source.includes("hn algolia")
-  ) sections.add("hn");
-
-  if (
-    label === "industry_business" ||
-    matchesAny(hay, [
-      /funding|raised|ipo|acquire|acquisition|lawsuit|regulation|policy|white house|pentagon|nvidia|salesforce|meta|microsoft|融资|收购|上市|监管|政策|裁员|估值|债券|芯片|公司|行业|政府|五角大楼|白宫/,
-    ])
-  ) sections.add("industry");
-
-  if (
-    label === "research_paper" ||
-    matchesAny(hay, [
-      /paper|arxiv|research|benchmark|eval|dataset|lmsys|rdi|berkeley|huggingface daily papers|论文|研究|基准|评测|数据集|训练|k-means|speculative decoding/,
-    ])
-  ) sections.add("research");
-
-  if (
-    item.site_id === "tikhub_douyin" ||
-    item.site_id === "tikhub_xiaohongshu" ||
-    source.includes("douyin") ||
-    source.includes("xiaohongshu") ||
-    source.includes("小红书") ||
-    source.includes("抖音")
-  ) sections.add("creator");
-
-  if (
-    item.site_id === "waytoagi" ||
-    item.site_id === "followbuilders" ||
-    item.site_id === "aibase" ||
-    source.includes("it之家") ||
-    source.includes("36氪") ||
-    source.includes("掘金") ||
-    source.includes("readhub") ||
-    source.includes("aibase") ||
-    source.includes("公众号") ||
-    source.includes("宝玉") ||
-    source.includes("小互") ||
-    source.includes("ayi") ||
-    matchesAny(hay, [
-      /waytoagi|社区|公众号|阿里|通义|千问|智谱|kimi|月之暗面|minimax|字节|火山|百度|腾讯|华为|蚂蚁|讯飞|国内|中文|开源中国|少数派|虎嗅/,
-    ])
-  ) sections.add("community");
+  // 正则兜底（对齐手机版 SECTION_FALLBACK_RULES）
+  const FALLBACK_RULES = [
+    ["collab", [/联动|联名|跨界|联乘|crossover|collab|collaboration|partnership/]],
+    ["campaign", [/营销|campaign|广告|投放|买量|快闪|代言|sponsorship|endorsement|广告片|tvc/]],
+    ["influencer", [/达人|kol|up主|主播|网红|博主|influencer|streamer|商单/]],
+    ["ugc", [/二创|同人|手书|coser|cosplay|ugc|fan ?art|fanart|mmd|mod/]],
+    ["game_launch", [/公测|上线|周年|版本|资料片|预约|新游|launch|release|anniversary|dlc/]],
+    ["esports", [/电竞|赛事|直播|战队|联赛|esports|tournament|livestream|世界赛/]],
+    ["industry", [/融资|收购|财报|营收|战略|并购|funding|acquire|ipo|上市|裁员|监管|investor/]],
+  ];
+  for (const [sectionId, patterns] of FALLBACK_RULES) {
+    if (matchesAny(hay, patterns)) sections.add(sectionId);
+  }
 
   if (!sections.size) sections.add("industry");
   return sections;
 }
 
 function itemMatchesSection(item, sectionId) {
-  return sectionId === "hot" || itemSections(item).has(sectionId);
+  return !sectionId || sectionId === "all" || itemSections(item).has(sectionId);
 }
 
 function sectionBadgeLabel(sectionId) {
@@ -1583,7 +1514,7 @@ function renderBoleFallback(picks) {
 
   const note = document.createElement("div");
   note.className = "bole-fallback-note";
-  note.textContent = "故事合并数据暂未生成，先展示伯乐候选信号。";
+  note.textContent = "故事合并数据暂未生成，先展示重点候选信号。";
   bolePicksListEl.appendChild(note);
 
   if (!picks.length) {
@@ -1622,7 +1553,7 @@ function renderBoleFallback(picks) {
 
 function storyMatchesFilteredItems(story, filteredItems) {
   if (
-    state.activeSection === "hot" &&
+    state.activeSection === "all" &&
     !state.siteFilter &&
     !state.authorFilter &&
     !state.sourceTypeFilter &&
@@ -1886,7 +1817,7 @@ function renderBolePicks() {
   if (boleViewToggleEl) boleViewToggleEl.hidden = true;
   if (bolePicksWrapEl) bolePicksWrapEl.hidden = false;
 
-  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
+  const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.all;
   const filtered = getFilteredItems();
   const storyPools = currentStoryPools(filtered);
   const availableStoryPool = storyPools.brief.length
@@ -1904,7 +1835,7 @@ function renderBolePicks() {
     : rankedFallbackRows(filtered).slice(0, defaultLimit);
   const top = rows.slice(0, 3);
   const remainingCount = Math.max(0, rows.length - top.length);
-  if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "hot" ? "今日重点信号" : `${section.label}重点信号`;
+  if (topStoriesTitleEl) topStoriesTitleEl.textContent = state.activeSection === "all" ? "今日重点信号" : `${section.label}重点信号`;
   const storyMeta = usesStories
     ? `展示池：热点 ${fmtNumber(candidateCounts.hot)}/${fmtNumber(candidateCounts.hotTotal)} · 时间线 ${fmtNumber(candidateCounts.timeline)}/${fmtNumber(candidateCounts.timelineTotal)}`
     : `展示池：${fmtNumber(rows.length)} 条`;
@@ -2035,7 +1966,7 @@ function signalSummaryText(row) {
   if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
   const reason = reasonText(item);
   if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "核心方向：");
-  return `${label}方向的新近更新，已进入 24 小时 AI 强相关池。`;
+  return `${label}方向的新近更新，已进入 24 小时营销强相关池。`;
 }
 
 // 只返回真实的、条目级别的推荐理由（item.recommend_reason_zh 或 story.primary_item.recommend_reason_zh）。
@@ -2185,7 +2116,7 @@ function feedSummaryText(item) {
   if (signals.length) return `相关线索：${signals.join(" / ")}。`;
   const reason = reasonText(item);
   if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "相关线索：");
-  return `${labelText(item)} · AI 相关度 ${scorePercent(item) || "待评估"}。`;
+  return `${labelText(item)} · 营销相关度 ${scorePercent(item) || "待评估"}。`;
 }
 
 function renderItemNode(item, context = {}) {
