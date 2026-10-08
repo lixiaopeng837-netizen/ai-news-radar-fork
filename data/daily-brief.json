@@ -1,6 +1,1649 @@
 {
-  "generated_at": "2026-10-08T17:39:44.320867Z",
+  "generated_at": "2026-10-08T17:47:58.203282Z",
   "window_hours": 24,
-  "total_items": 0,
-  "items": []
+  "total_items": 20,
+  "items": [
+    {
+      "story_id": "story_6557dda4a6cd",
+      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "primary_url": "https://openai.com/index/gpt-6-for-everyone",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "9812f46d2f4c0f9eb3380207ba7624fcdde2ad1a",
+          "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
+          "title_zh": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+          "title_en": "GPT-6 and Intelligent UI for everyone",
+          "title_original": "GPT-6 and Intelligent UI for everyone",
+          "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-07T18:00:58Z"
+        },
+        {
+          "id": "12544bfd0340b1b5936f51a34058f0eaf7e91260",
+          "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT‑6 and Intelligent UI for everyone",
+          "title_zh": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+          "title_en": "GPT‑6 and Intelligent UI for everyone",
+          "title_original": "GPT‑6 and Intelligent UI for everyone",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-07T18:00:58Z"
+        },
+        {
+          "id": "5842253de62f62cf023b1038efea3e8c56cfc399",
+          "title": "GPT‑6 and Intelligent UI for everyone",
+          "title_zh": null,
+          "title_en": "GPT‑6 and Intelligent UI for everyone",
+          "title_original": "GPT‑6 and Intelligent UI for everyone",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49996425",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-07T18:00:58Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "9812f46d2f4c0f9eb3380207ba7624fcdde2ad1a",
+          "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
+          "title_zh": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+          "title_en": "GPT-6 and Intelligent UI for everyone",
+          "title_original": "GPT-6 and Intelligent UI for everyone",
+          "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-07T18:00:58Z"
+        },
+        {
+          "id": "12544bfd0340b1b5936f51a34058f0eaf7e91260",
+          "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT‑6 and Intelligent UI for everyone",
+          "title_zh": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+          "title_en": "GPT‑6 and Intelligent UI for everyone",
+          "title_original": "GPT‑6 and Intelligent UI for everyone",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-10-07T18:00:58Z"
+        },
+        {
+          "id": "5842253de62f62cf023b1038efea3e8c56cfc399",
+          "title": "GPT‑6 and Intelligent UI for everyone",
+          "title_zh": null,
+          "title_en": "GPT‑6 and Intelligent UI for everyone",
+          "title_original": "GPT‑6 and Intelligent UI for everyone",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://news.ycombinator.com/item?id=49996425",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-10-07T18:00:58Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8587,
+      "importance": 0.8587,
+      "importance_score": 0.8587,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.87,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7093,
+        "story_heat": 0.5
+      },
+      "category": "official",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-07T18:00:58Z",
+      "latest_at": "2026-10-07T18:00:58Z",
+      "primary_item": {
+        "id": "9812f46d2f4c0f9eb3380207ba7624fcdde2ad1a",
+        "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
+        "title_zh": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+        "title_en": "GPT-6 and Intelligent UI for everyone",
+        "title_original": "GPT-6 and Intelligent UI for everyone",
+        "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/gpt-6-for-everyone",
+        "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_f913596b9697",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "primary_url": "https://openai.com/index/oracle",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_zh": null,
+          "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nOctober 8, 2026\nAcross recruiting, engineering, and operations, Oracle ",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/oracle",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T16:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_zh": null,
+          "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nOctober 8, 2026\nAcross recruiting, engineering, and operations, Oracle ",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/oracle",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T16:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8394,
+      "importance": 0.8394,
+      "importance_score": 0.8394,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9743,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T16:00:00Z",
+      "latest_at": "2026-10-08T16:00:00Z",
+      "primary_item": {
+        "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
+        "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "title_zh": null,
+        "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nOctober 8, 2026\nAcross recruiting, engineering, and operations, Oracle ",
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/oracle",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_68365110a7bb",
+      "title": "Screen readers can navigate timelines as lists",
+      "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+      "primary_url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
+          "title": "Screen readers can navigate timelines as lists",
+          "title_zh": null,
+          "title_en": "Screen readers can navigate timelines as lists",
+          "title_original": "Screen readers can navigate timelines as lists",
+          "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…\nScreen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates ",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T16:00:56Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
+          "title": "Screen readers can navigate timelines as lists",
+          "title_zh": null,
+          "title_en": "Screen readers can navigate timelines as lists",
+          "title_original": "Screen readers can navigate timelines as lists",
+          "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…\nScreen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates ",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T16:00:56Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8394,
+      "importance": 0.8394,
+      "importance_score": 0.8394,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9746,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T16:00:56Z",
+      "latest_at": "2026-10-08T16:00:56Z",
+      "primary_item": {
+        "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
+        "title": "Screen readers can navigate timelines as lists",
+        "title_zh": null,
+        "title_en": "Screen readers can navigate timelines as lists",
+        "title_original": "Screen readers can navigate timelines as lists",
+        "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…\nScreen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates ",
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_6d9b4cd327fa",
+      "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+      "url": "https://aihot.news/agent?tab=api",
+      "primary_url": "https://aihot.news/agent?tab=api",
+      "source": "AIHOT",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b23efb1ac1501010c365eae2e54ffb4cf0dda3dd",
+          "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+          "title_zh": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
+          "title_en": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+          "title_original": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+          "summary": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。",
+          "recommend_reason_zh": null,
+          "url": "https://aihot.news/agent?tab=api",
+          "source": "AIHOT",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T02:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIHOT"
+      ],
+      "items": [
+        {
+          "id": "b23efb1ac1501010c365eae2e54ffb4cf0dda3dd",
+          "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+          "title_zh": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
+          "title_en": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+          "title_original": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+          "summary": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。",
+          "recommend_reason_zh": null,
+          "url": "https://aihot.news/agent?tab=api",
+          "source": "AIHOT",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T02:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8149,
+      "importance": 0.8149,
+      "importance_score": 0.8149,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 1.0,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.796,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T02:00:00Z",
+      "latest_at": "2026-10-08T02:00:00Z",
+      "primary_item": {
+        "id": "b23efb1ac1501010c365eae2e54ffb4cf0dda3dd",
+        "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+        "title_zh": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
+        "title_en": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+        "title_original": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
+        "summary": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。",
+        "recommend_reason_zh": null,
+        "url": "https://aihot.news/agent?tab=api",
+        "source": "AIHOT",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_e323adeab1da",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "primary_url": "https://openai.com/index/pollo-ai",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "e441138912907d022d550626c930aa4e578bbe9e",
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_zh": null,
+          "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nWith GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nWith GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nOctober 8, 2026\nWith GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas in",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/pollo-ai",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T12:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "e441138912907d022d550626c930aa4e578bbe9e",
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_zh": null,
+          "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nWith GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nWith GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nOctober 8, 2026\nWith GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas in",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/pollo-ai",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T12:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8375,
+      "importance": 0.8375,
+      "importance_score": 0.8375,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.9197,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T12:00:00Z",
+      "latest_at": "2026-10-08T12:00:00Z",
+      "primary_item": {
+        "id": "e441138912907d022d550626c930aa4e578bbe9e",
+        "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+        "title_zh": null,
+        "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
+        "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
+        "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nWith GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nWith GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.\nOctober 8, 2026\nWith GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas in",
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/pollo-ai",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_8cec8cc46a95",
+      "title": "Draft pull requests count toward pull request limits",
+      "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+      "primary_url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
+          "title": "Draft pull requests count toward pull request limits",
+          "title_zh": null,
+          "title_en": "Draft pull requests count toward pull request limits",
+          "title_original": "Draft pull requests count toward pull request limits",
+          "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,…\nMaintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests.\nPreviously, draft pull requests didn’t count toward a user’s limit. That meant someone could open any n",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T14:25:53Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
+          "title": "Draft pull requests count toward pull request limits",
+          "title_zh": null,
+          "title_en": "Draft pull requests count toward pull request limits",
+          "title_original": "Draft pull requests count toward pull request limits",
+          "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,…\nMaintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests.\nPreviously, draft pull requests didn’t count toward a user’s limit. That meant someone could open any n",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T14:25:53Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8355,
+      "importance": 0.8355,
+      "importance_score": 0.8355,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9525,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T14:25:53Z",
+      "latest_at": "2026-10-08T14:25:53Z",
+      "primary_item": {
+        "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
+        "title": "Draft pull requests count toward pull request limits",
+        "title_zh": null,
+        "title_en": "Draft pull requests count toward pull request limits",
+        "title_original": "Draft pull requests count toward pull request limits",
+        "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,…\nMaintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests.\nPreviously, draft pull requests didn’t count toward a user’s limit. That meant someone could open any n",
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_e42c7cb753df",
+      "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "primary_url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+          "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T13:01:01Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+          "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T13:01:01Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7796,
+      "importance": 0.7796,
+      "importance_score": 0.7796,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9333,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T13:01:01Z",
+      "latest_at": "2026-10-08T13:01:01Z",
+      "primary_item": {
+        "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+        "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+        "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+        "recommend_reason_zh": null,
+        "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_9d420c28c726",
+      "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+      "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+      "primary_url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1f9823f40d994730810318520de0f53b02b350ca",
+          "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+          "title_zh": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+          "title_en": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+          "title_original": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+          "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T16:42:42Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Artificial Analysis (@ArtificialAnlys)"
+      ],
+      "items": [
+        {
+          "id": "1f9823f40d994730810318520de0f53b02b350ca",
+          "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+          "title_zh": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+          "title_en": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+          "title_original": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+          "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T16:42:42Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7738,
+      "importance": 0.7738,
+      "importance_score": 0.7738,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9844,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T16:42:42Z",
+      "latest_at": "2026-10-08T16:42:42Z",
+      "primary_item": {
+        "id": "1f9823f40d994730810318520de0f53b02b350ca",
+        "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+        "title_zh": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+        "title_en": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+        "title_original": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+        "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+        "source": "X：Artificial Analysis (@ArtificialAnlys)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_67b66df75035",
+      "title": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+      "url": "https://www.aibase.com/news/31479",
+      "primary_url": "https://www.aibase.com/news/31479",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "de9f6ed81b804e78b6972547007343537c80d63a",
+          "title": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+          "title_zh": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+          "title_en": null,
+          "title_original": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+          "summary": "Step Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nStep Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nStep Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nExplore AI Frontiers",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31479",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-08T17:47:58.203282Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "de9f6ed81b804e78b6972547007343537c80d63a",
+          "title": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+          "title_zh": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+          "title_en": null,
+          "title_original": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+          "summary": "Step Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nStep Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nStep Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nExplore AI Frontiers",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31479",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-08T17:47:58.203282Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T17:47:58.203282Z",
+      "latest_at": "2026-10-08T17:47:58.203282Z",
+      "primary_item": {
+        "id": "de9f6ed81b804e78b6972547007343537c80d63a",
+        "title": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+        "title_zh": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+        "title_en": null,
+        "title_original": "阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假",
+        "summary": "Step Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nStep Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nStep Terminal brought the concept of \"the phone does the work itself\" to the forefront. It announced that its first large model-native intelligent agent phone,\nExplore AI Frontiers",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31479",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
+    {
+      "story_id": "story_aab4210bc456",
+      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "primary_url": "https://github.com/pingdotgg/ts-rust",
+      "source": "Hacker News：AI 热帖",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "ee9f97b75a4c7f8f29d61a2e00f792dd566eba39",
+          "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+          "title_zh": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+          "title_en": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+          "title_original": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+          "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+          "recommend_reason_zh": null,
+          "url": "https://github.com/pingdotgg/ts-rust",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T00:46:00Z"
+        },
+        {
+          "id": "92e39962b69fce526a3efa8aef5691293351510e",
+          "title": "LLM 实现的 TypeScript 编译器、检查器和 lsp 的 Rust 移植版",
+          "title_zh": "LLM 实现的 TypeScript 编译器、检查器和 lsp 的 Rust 移植版",
+          "title_en": null,
+          "title_original": "LLM 实现的 TypeScript 编译器、检查器和 lsp 的 Rust 移植版",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/pingdotgg/ts-rust",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-08T17:20:58.677000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News：AI 热帖",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "ee9f97b75a4c7f8f29d61a2e00f792dd566eba39",
+          "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+          "title_zh": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+          "title_en": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+          "title_original": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+          "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+          "recommend_reason_zh": null,
+          "url": "https://github.com/pingdotgg/ts-rust",
+          "source": "Hacker News：AI 热帖",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T00:46:00Z"
+        },
+        {
+          "id": "92e39962b69fce526a3efa8aef5691293351510e",
+          "title": "LLM 实现的 TypeScript 编译器、检查器和 lsp 的 Rust 移植版",
+          "title_zh": "LLM 实现的 TypeScript 编译器、检查器和 lsp 的 Rust 移植版",
+          "title_en": null,
+          "title_original": "LLM 实现的 TypeScript 编译器、检查器和 lsp 的 Rust 移植版",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/pingdotgg/ts-rust",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-10-08T17:20:58.677000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7654,
+      "importance": 0.7654,
+      "importance_score": 0.7654,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.782,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T00:46:00Z",
+      "latest_at": "2026-10-08T17:20:58.677000Z",
+      "primary_item": {
+        "id": "ee9f97b75a4c7f8f29d61a2e00f792dd566eba39",
+        "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+        "title_zh": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+        "title_en": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+        "title_original": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+        "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+        "recommend_reason_zh": null,
+        "url": "https://github.com/pingdotgg/ts-rust",
+        "source": "Hacker News：AI 热帖",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d018af5dc3ed",
+      "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+      "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+      "primary_url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "e61ba62b2c702585858363c034d3d4f396b2775a",
+          "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+          "title_zh": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+          "title_en": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+          "title_original": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+          "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-07T18:08:53Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Claude Devs (@ClaudeDevs)"
+      ],
+      "items": [
+        {
+          "id": "e61ba62b2c702585858363c034d3d4f396b2775a",
+          "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+          "title_zh": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+          "title_en": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+          "title_original": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+          "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-07T18:08:53Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7579,
+      "importance": 0.7579,
+      "importance_score": 0.7579,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7107,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-07T18:08:53Z",
+      "latest_at": "2026-10-07T18:08:53Z",
+      "primary_item": {
+        "id": "e61ba62b2c702585858363c034d3d4f396b2775a",
+        "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+        "title_zh": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+        "title_en": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+        "title_original": "We’re rolling out monthly Claude Platform API credits for Max and Team plans:",
+        "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+        "source": "X：Claude Devs (@ClaudeDevs)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_cb02882597ae",
+      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": "Claude Code：GitHub Releases（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "af806127f0c12c9d81388cad25dcf95b334e1a89",
+          "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "title_zh": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "title_en": null,
+          "title_original": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-07T18:10:20Z"
+        },
+        {
+          "id": "a50d0cc054be486bcbe85db257ed84080580ee8a",
+          "title": "v2.1.293",
+          "title_zh": null,
+          "title_en": null,
+          "title_original": "v2.1.293",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-10-07T18:10:20Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Claude Code Releases",
+        "Claude Code：GitHub Releases（RSS）"
+      ],
+      "items": [
+        {
+          "id": "af806127f0c12c9d81388cad25dcf95b334e1a89",
+          "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "title_zh": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "title_en": null,
+          "title_original": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+          "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-07T18:10:20Z"
+        },
+        {
+          "id": "a50d0cc054be486bcbe85db257ed84080580ee8a",
+          "title": "v2.1.293",
+          "title_zh": null,
+          "title_en": null,
+          "title_original": "v2.1.293",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-10-07T18:10:20Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.753,
+      "importance": 0.753,
+      "importance_score": 0.753,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.6,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.7109,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-07T18:10:20Z",
+      "latest_at": "2026-10-07T18:10:20Z",
+      "primary_item": {
+        "id": "af806127f0c12c9d81388cad25dcf95b334e1a89",
+        "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+        "title_zh": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+        "title_en": null,
+        "title_original": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+        "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+        "recommend_reason_zh": null,
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+        "source": "Claude Code：GitHub Releases（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_d2113055d2ba",
+      "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!",
+      "url": "https://x.com/arena/status/2108243026741248348",
+      "primary_url": "https://x.com/arena/status/2108243026741248348",
+      "source": "X：Arena (@arena)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d89ed5786a4a33a1586eb95b51f8a172b5e03d3d",
+          "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!",
+          "title_zh": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+          "title_en": "We’re so proud to have worked alongside @felicis from the very beginning!",
+          "title_original": "We’re so proud to have worked alongside @felicis from the very beginning!",
+          "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/arena/status/2108243026741248348",
+          "source": "X：Arena (@arena)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T17:08:01Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Arena (@arena)"
+      ],
+      "items": [
+        {
+          "id": "d89ed5786a4a33a1586eb95b51f8a172b5e03d3d",
+          "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!",
+          "title_zh": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+          "title_en": "We’re so proud to have worked alongside @felicis from the very beginning!",
+          "title_original": "We’re so proud to have worked alongside @felicis from the very beginning!",
+          "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/arena/status/2108243026741248348",
+          "source": "X：Arena (@arena)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T17:08:01Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7509,
+      "importance": 0.7509,
+      "importance_score": 0.7509,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.67,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9904,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T17:08:01Z",
+      "latest_at": "2026-10-08T17:08:01Z",
+      "primary_item": {
+        "id": "d89ed5786a4a33a1586eb95b51f8a172b5e03d3d",
+        "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!",
+        "title_zh": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+        "title_en": "We’re so proud to have worked alongside @felicis from the very beginning!",
+        "title_original": "We’re so proud to have worked alongside @felicis from the very beginning!",
+        "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/arena/status/2108243026741248348",
+        "source": "X：Arena (@arena)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_8b891e5bed56",
+      "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+      "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+      "primary_url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "96cef21a5d9693679c7089b34bd71f25214088e0",
+          "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+          "title_zh": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+          "title_en": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+          "title_original": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+          "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T09:24:17Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "96cef21a5d9693679c7089b34bd71f25214088e0",
+          "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+          "title_zh": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+          "title_en": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+          "title_original": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+          "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T09:24:17Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7771,
+      "importance": 0.7771,
+      "importance_score": 0.7771,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.82,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8858,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T09:24:17Z",
+      "latest_at": "2026-10-08T09:24:17Z",
+      "primary_item": {
+        "id": "96cef21a5d9693679c7089b34bd71f25214088e0",
+        "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+        "title_zh": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+        "title_en": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+        "title_original": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+        "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+        "recommend_reason_zh": null,
+        "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_6550b85414dd",
+      "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
+      "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
+      "primary_url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
+      "source": "Claude：YouTube（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "1a3a4140130097b5826407cc03271420f5e3c849",
+          "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
+          "title_zh": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
+          "title_en": "What's new in Claude: September recap",
+          "title_original": "What's new in Claude: September recap",
+          "summary": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
+          "recommend_reason_zh": null,
+          "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
+          "source": "Claude：YouTube（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T15:53:13Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Claude：YouTube（RSS）"
+      ],
+      "items": [
+        {
+          "id": "1a3a4140130097b5826407cc03271420f5e3c849",
+          "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
+          "title_zh": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
+          "title_en": "What's new in Claude: September recap",
+          "title_original": "What's new in Claude: September recap",
+          "summary": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
+          "recommend_reason_zh": null,
+          "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
+          "source": "Claude：YouTube（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T15:53:13Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7447,
+      "importance": 0.7447,
+      "importance_score": 0.7447,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9728,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-08T15:53:13Z",
+      "latest_at": "2026-10-08T15:53:13Z",
+      "primary_item": {
+        "id": "1a3a4140130097b5826407cc03271420f5e3c849",
+        "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
+        "title_zh": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
+        "title_en": "What's new in Claude: September recap",
+        "title_original": "What's new in Claude: September recap",
+        "summary": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
+        "recommend_reason_zh": null,
+        "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
+        "source": "Claude：YouTube（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_610b177702ad",
+      "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "primary_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "595f5594a8cd13b83071f2d99b296e326515563a",
+          "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations",
+          "title_zh": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+          "title_en": "Disrupting AI-enabled “false front” operations",
+          "title_original": "Disrupting AI-enabled “false front” operations",
+          "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOctober 8, 2026\nOver the past two and a half years, we’ve reported on many of the ways",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T00:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "items": [
+        {
+          "id": "595f5594a8cd13b83071f2d99b296e326515563a",
+          "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations",
+          "title_zh": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+          "title_en": "Disrupting AI-enabled “false front” operations",
+          "title_original": "Disrupting AI-enabled “false front” operations",
+          "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOctober 8, 2026\nOver the past two and a half years, we’ve reported on many of the ways",
+          "recommend_reason_zh": null,
+          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-08T00:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8032,
+      "importance": 0.8032,
+      "importance_score": 0.8032,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7733,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T00:00:00Z",
+      "latest_at": "2026-10-08T00:00:00Z",
+      "primary_item": {
+        "id": "595f5594a8cd13b83071f2d99b296e326515563a",
+        "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations",
+        "title_zh": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+        "title_en": "Disrupting AI-enabled “false front” operations",
+        "title_original": "Disrupting AI-enabled “false front” operations",
+        "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.\nOctober 8, 2026\nOver the past two and a half years, we’ve reported on many of the ways",
+        "recommend_reason_zh": null,
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_69693d25de16",
+      "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
+      "url": "https://claude.dev/blog/building-effective-agent-automations",
+      "primary_url": "https://claude.dev/blog/building-effective-agent-automations",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "2684cbbd08e99b581673bf3478183d6f077bcf3e",
+          "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
+          "title_zh": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+          "title_en": "Building effective agent automations",
+          "title_original": "Building effective agent automations",
+          "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+          "recommend_reason_zh": null,
+          "url": "https://claude.dev/blog/building-effective-agent-automations",
+          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T12:00:00Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Anthropic：Claude.dev 开发者博客（RSS）"
+      ],
+      "items": [
+        {
+          "id": "2684cbbd08e99b581673bf3478183d6f077bcf3e",
+          "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
+          "title_zh": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+          "title_en": "Building effective agent automations",
+          "title_original": "Building effective agent automations",
+          "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+          "recommend_reason_zh": null,
+          "url": "https://claude.dev/blog/building-effective-agent-automations",
+          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T12:00:00Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7411,
+      "importance": 0.7411,
+      "importance_score": 0.7411,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.68,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9197,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-08T12:00:00Z",
+      "latest_at": "2026-10-08T12:00:00Z",
+      "primary_item": {
+        "id": "2684cbbd08e99b581673bf3478183d6f077bcf3e",
+        "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
+        "title_zh": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+        "title_en": "Building effective agent automations",
+        "title_original": "Building effective agent automations",
+        "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+        "recommend_reason_zh": null,
+        "url": "https://claude.dev/blog/building-effective-agent-automations",
+        "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_77071f8577b9",
+      "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "primary_url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "source": "X：Tibo (@thsottiaux)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b9798e6758a5964a01c7b0d7599574e0b4e4d825",
+          "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?",
+          "title_zh": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+          "title_en": "Confirmed landed across all accounts. How are we doing so far?",
+          "title_original": "Confirmed landed across all accounts. How are we doing so far?",
+          "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/thsottiaux/status/2108040921044639779",
+          "source": "X：Tibo (@thsottiaux)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T03:44:55Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Tibo (@thsottiaux)"
+      ],
+      "items": [
+        {
+          "id": "b9798e6758a5964a01c7b0d7599574e0b4e4d825",
+          "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?",
+          "title_zh": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+          "title_en": "Confirmed landed across all accounts. How are we doing so far?",
+          "title_original": "Confirmed landed across all accounts. How are we doing so far?",
+          "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/thsottiaux/status/2108040921044639779",
+          "source": "X：Tibo (@thsottiaux)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-10-08T03:44:55Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7405,
+      "importance": 0.7405,
+      "importance_score": 0.7405,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8164,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-10-08T03:44:55Z",
+      "latest_at": "2026-10-08T03:44:55Z",
+      "primary_item": {
+        "id": "b9798e6758a5964a01c7b0d7599574e0b4e4d825",
+        "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?",
+        "title_zh": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+        "title_en": "Confirmed landed across all accounts. How are we doing so far?",
+        "title_original": "Confirmed landed across all accounts. How are we doing so far?",
+        "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/thsottiaux/status/2108040921044639779",
+        "source": "X：Tibo (@thsottiaux)",
+        "source_name": "AI HOT"
+      }
+    },
+    {
+      "story_id": "story_7656d3b30e51",
+      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "sources": [
+        {
+          "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
+          "title": "Claude Haiku 5.5 in GitHub Copilot",
+          "title_zh": null,
+          "title_en": "Claude Haiku 5.5 in GitHub Copilot",
+          "title_original": "Claude Haiku 5.5 in GitHub Copilot",
+          "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…\nClaude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-07T20:12:18Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "items": [
+        {
+          "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
+          "title": "Claude Haiku 5.5 in GitHub Copilot",
+          "title_zh": null,
+          "title_en": "Claude Haiku 5.5 in GitHub Copilot",
+          "title_original": "Claude Haiku 5.5 in GitHub Copilot",
+          "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…\nClaude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer",
+          "recommend_reason_zh": null,
+          "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-10-07T20:12:18Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7958,
+      "importance": 0.7958,
+      "importance_score": 0.7958,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.7321,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-07T20:12:18Z",
+      "latest_at": "2026-10-07T20:12:18Z",
+      "primary_item": {
+        "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
+        "title": "Claude Haiku 5.5 in GitHub Copilot",
+        "title_zh": null,
+        "title_en": "Claude Haiku 5.5 in GitHub Copilot",
+        "title_original": "Claude Haiku 5.5 in GitHub Copilot",
+        "summary": "Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…\nClaude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer",
+        "recommend_reason_zh": null,
+        "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      }
+    },
+    {
+      "story_id": "story_78a725ddd1ec",
+      "title": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+      "url": "https://www.aibase.com/news/31478",
+      "primary_url": "https://www.aibase.com/news/31478",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fa4649f90c7b97c1a779f00744e1323e8c9500ec",
+          "title": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+          "title_zh": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+          "title_en": null,
+          "title_original": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+          "summary": "Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nTencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nTencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31478",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-08T16:54:58.203282Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fa4649f90c7b97c1a779f00744e1323e8c9500ec",
+          "title": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+          "title_zh": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+          "title_en": null,
+          "title_original": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+          "summary": "Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nTencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nTencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nExplore AI Fronti",
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/31478",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-10-08T16:54:58.203282Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7653,
+      "importance": 0.7653,
+      "importance_score": 0.7653,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9873,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T16:54:58.203282Z",
+      "latest_at": "2026-10-08T16:54:58.203282Z",
+      "primary_item": {
+        "id": "fa4649f90c7b97c1a779f00744e1323e8c9500ec",
+        "title": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+        "title_zh": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+        "title_en": null,
+        "title_original": "腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理",
+        "summary": "Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nTencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nTencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files\nExplore AI Fronti",
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/31478",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    }
+  ]
 }

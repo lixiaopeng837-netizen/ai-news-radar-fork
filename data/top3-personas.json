@@ -1,4 +1,19 @@
 {
-  "generated_at": "2026-10-08T17:39:57.272280Z",
+  "generated_at": "2026-10-08T17:50:24.512391Z",
+  "model": "deepseek-chat",
+  "personas": [
+    {
+      "id": "cynic",
+      "name": "毒舌评论员"
+    },
+    {
+      "id": "paper-police",
+      "name": "较真党"
+    },
+    {
+      "id": "pragmatic",
+      "name": "实用派"
+    }
+  ],
   "items": []
 }

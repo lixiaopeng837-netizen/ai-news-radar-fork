@@ -5,167 +5,189 @@
 <link>https://news.learnprompt.pro</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 08 Oct 2026 17:39:44 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 17:47:58 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://news.learnprompt.pro/data/feed.xml"/>
 <item>
-<title>10月预计15款新游戏上线:《剑侠世界4：无限》领衔，Steam游戏反攻手游</title>
-<link>http://www.gamelook.com.cn/2026/10/603312</link>
-<guid isPermaLink="true">http://www.gamelook.com.cn/2026/10/603312</guid>
-<description>gamelook.com.cn</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 03:18:51 +0000</pubDate>
+<title>OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone</title>
+<link>https://openai.com/index/gpt-6-for-everyone</link>
+<guid isPermaLink="true">https://openai.com/index/gpt-6-for-everyone</guid>
+<description>OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。（OpenAI：官网动态（RSS · 排除企业/客户案例））</description>
+<category>官方更新</category>
+<pubDate>Wed, 07 Oct 2026 18:00:58 +0000</pubDate>
 </item>
 <item>
-<title>Following Nintendo and Sony's lead, Xbox is setting up a division exclusively dedicated to movies and non-games partnerships</title>
-<link>https://www.eurogamer.net/xbox-xp-product-partnerships-places-productions</link>
-<guid isPermaLink="true">https://www.eurogamer.net/xbox-xp-product-partnerships-places-productions</guid>
-<description>eurogamer.net</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 12:12:45 +0000</pubDate>
+<title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
+<link>https://openai.com/index/oracle</link>
+<guid isPermaLink="true">https://openai.com/index/oracle</guid>
+<description>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
+Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
+Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
+October 8, 2026
+Across recruiting, engineering, and operations, Oracle （OpenAI News）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Two Point Museum's Cutest Collaboration Is Now Available, And It's Free</title>
-<link>https://www.nintendolife.com/news/2026/10/two-point-museums-cutest-collaboration-is-now-available-and-its-free</link>
-<guid isPermaLink="true">https://www.nintendolife.com/news/2026/10/two-point-museums-cutest-collaboration-is-now-available-and-its-free</guid>
-<description>nintendolife.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 17:00:00 +0000</pubDate>
+<title>Screen readers can navigate timelines as lists</title>
+<link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
+<description>Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…
+Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates （GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
 </item>
 <item>
-<title>Pokémon 'Blind Bag' Skateboard Decks Return In New Santa Cruz Collaboration</title>
-<link>https://www.nintendolife.com/news/2026/10/pokemon-blind-bag-skateboard-decks-return-in-new-santa-cruz-collaboration</link>
-<guid isPermaLink="true">https://www.nintendolife.com/news/2026/10/pokemon-blind-bag-skateboard-decks-return-in-new-santa-cruz-collaboration</guid>
-<description>nintendolife.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 15:00:00 +0000</pubDate>
+<title>【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1</title>
+<link>https://aihot.news/agent?tab=api</link>
+<guid isPermaLink="true">https://aihot.news/agent?tab=api</guid>
+<description>这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。（AIHOT）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 02:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Safe In Our World launches Four Billion Players campaign to make mental health support more accessible for gamers</title>
-<link>https://www.gamesindustry.biz/safe-in-our-world-launches-four-billion-players-campaign-to-make-mental-health-support-more-accessible-for-gamers</link>
-<guid isPermaLink="true">https://www.gamesindustry.biz/safe-in-our-world-launches-four-billion-players-campaign-to-make-mental-health-support-more-accessible-for-gamers</guid>
-<description>gamesindustry.biz</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 13:00:00 +0000</pubDate>
+<title>Pollo AI turns creative ideas into campaigns with OpenAI</title>
+<link>https://openai.com/index/pollo-ai</link>
+<guid isPermaLink="true">https://openai.com/index/pollo-ai</guid>
+<description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
+With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
+With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
+October 8, 2026
+With GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas in（OpenAI News）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Xbox aim to wring more cash out of the games they've not cast into oblivion by launching new licensing arm and handing Minecraft to ex-Meta monetisation lead</title>
-<link>https://www.rockpapershotgun.com/xbox-aim-to-wring-more-cash-out-of-the-games-theyve-not-cast-into-oblivion-by-launching-new-licensing-arm-and-handing-minecraft-to-ex-meta-monetisation-lead</link>
-<guid isPermaLink="true">https://www.rockpapershotgun.com/xbox-aim-to-wring-more-cash-out-of-the-games-theyve-not-cast-into-oblivion-by-launching-new-licensing-arm-and-handing-minecraft-to-ex-meta-monetisation-lead</guid>
-<description>rockpapershotgun.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 12:53:06 +0000</pubDate>
+<title>Draft pull requests count toward pull request limits</title>
+<link>https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</guid>
+<description>Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,…
+Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests.
+Previously, draft pull requests didn’t count toward a user’s limit. That meant someone could open any n（GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 14:25:53 +0000</pubDate>
 </item>
 <item>
-<title>Sociable: Meta introduces new AI-powered tools at Advertising Week</title>
-<link>https://www.marketingdive.com/news/meta-introduces-new-ai-powered-tools-at-advertising-week/832517</link>
-<guid isPermaLink="true">https://www.marketingdive.com/news/meta-introduces-new-ai-powered-tools-at-advertising-week/832517</guid>
-<description>marketingdive.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 16:20:00 +0000</pubDate>
+<title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
+<link>https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</link>
+<guid isPermaLink="true">https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</guid>
+<description>Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。（The Decoder：AI News（RSS））</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 13:01:01 +0000</pubDate>
 </item>
 <item>
-<title>Astral Ascent x Clair Obscur: Expedition 33 collaboration update ‘For Those Who Come After’ now available</title>
-<link>https://www.gematsu.com/2026/10/astral-ascent-x-clair-obscur-expedition-33-collaboration-update-for-those-who-come-after-now-available</link>
-<guid isPermaLink="true">https://www.gematsu.com/2026/10/astral-ascent-x-clair-obscur-expedition-33-collaboration-update-for-those-who-come-after-now-available</guid>
-<description>gematsu.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 16:09:37 +0000</pubDate>
+<title>Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2</title>
+<link>https://x.com/ArtificialAnlys/status/2108236656700768310</link>
+<guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2108236656700768310</guid>
+<description>Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。（X：Artificial Analysis (@ArtificialAnlys)）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 16:42:42 +0000</pubDate>
 </item>
 <item>
-<title>GTA 6: Rockstar Releases Brand New Official Screenshots Showing Off Stunning Reflections</title>
-<link>https://www.ign.com/articles/gta-6-rockstar-releases-brand-new-official-screenshots-showing-off-stunning-reflections</link>
-<guid isPermaLink="true">https://www.ign.com/articles/gta-6-rockstar-releases-brand-new-official-screenshots-showing-off-stunning-reflections</guid>
-<description>feeds.ign.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 14:49:11 +0000</pubDate>
+<title>阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假</title>
+<link>https://www.aibase.com/news/31479</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31479</guid>
+<description>Step Terminal brought the concept of "the phone does the work itself" to the forefront. It announced that its first large model-native intelligent agent phone,
+Step Terminal brought the concept of "the phone does the work itself" to the forefront. It announced that its first large model-native intelligent agent phone,
+Step Terminal brought the concept of "the phone does the work itself" to the forefront. It announced that its first large model-native intelligent agent phone,
+Explore AI Frontiers（AIbase）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 17:47:58 +0000</pubDate>
 </item>
 <item>
-<title>Southwest turns notifications into rewards in mobile-forward campaign</title>
-<link>https://www.marketingdive.com/news/southwest-turns-notifications-into-rewards-in-mobile-forward-campaign/832439</link>
-<guid isPermaLink="true">https://www.marketingdive.com/news/southwest-turns-notifications-into-rewards-in-mobile-forward-campaign/832439</guid>
-<description>marketingdive.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 13:57:00 +0000</pubDate>
+<title>ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM</title>
+<link>https://github.com/pingdotgg/ts-rust</link>
+<guid isPermaLink="true">https://github.com/pingdotgg/ts-rust</guid>
+<description>ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。（Hacker News：AI 热帖）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 17:20:58 +0000</pubDate>
 </item>
 <item>
-<title>Your brand can do almost anything — and that’s the problem</title>
-<link>https://www.marketingdive.com/news/your-brand-can-do-almost-anything-and-thats-the-problem/831496</link>
-<guid isPermaLink="true">https://www.marketingdive.com/news/your-brand-can-do-almost-anything-and-thats-the-problem/831496</guid>
-<description>marketingdive.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 13:55:00 +0000</pubDate>
+<title>Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:</title>
+<link>https://x.com/ClaudeDevs/status/2107895957933408429</link>
+<guid isPermaLink="true">https://x.com/ClaudeDevs/status/2107895957933408429</guid>
+<description>Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。（X：Claude Devs (@ClaudeDevs)）</description>
+<category>官方更新</category>
+<pubDate>Wed, 07 Oct 2026 18:08:53 +0000</pubDate>
 </item>
 <item>
-<title>ADWEEK Brand Advantage: Celebrity Endorsement Enters Its Equity Era, With Strings Attached</title>
-<link>https://www.adweek.com/brand-marketing/adweek-brand-advantage-celebrity-endorsement-enters-its-equity-era-with-strings-attached</link>
-<guid isPermaLink="true">https://www.adweek.com/brand-marketing/adweek-brand-advantage-celebrity-endorsement-enters-its-equity-era-with-strings-attached</guid>
-<description>adweek.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 06:00:00 +0000</pubDate>
+<title>Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题</title>
+<link>https://github.com/anthropics/claude-code/releases/tag/v2.1.293</link>
+<guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.293</guid>
+<description>Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。（Claude Code：GitHub Releases（RSS））</description>
+<category>官方更新</category>
+<pubDate>Wed, 07 Oct 2026 18:10:20 +0000</pubDate>
 </item>
 <item>
-<title>AI favors brands with an active social media presence</title>
-<link>https://www.socialmediatoday.com/news/ai-favors-brands-with-an-active-social-media-presence/832450</link>
-<guid isPermaLink="true">https://www.socialmediatoday.com/news/ai-favors-brands-with-an-active-social-media-presence/832450</guid>
-<description>socialmediatoday.com</description>
-<category>RSS/OPML</category>
-<pubDate>Wed, 07 Oct 2026 22:19:25 +0000</pubDate>
+<title>Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!</title>
+<link>https://x.com/arena/status/2108243026741248348</link>
+<guid isPermaLink="true">https://x.com/arena/status/2108243026741248348</guid>
+<description>Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。（X：Arena (@arena)）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 17:08:01 +0000</pubDate>
 </item>
 <item>
-<title>LinkedIn shares checklist for B2B marketing campaigns</title>
-<link>https://www.socialmediatoday.com/news/linkedin-shares-checklist-for-b2b-marketing-campaigns/832449</link>
-<guid isPermaLink="true">https://www.socialmediatoday.com/news/linkedin-shares-checklist-for-b2b-marketing-campaigns/832449</guid>
-<description>socialmediatoday.com</description>
-<category>RSS/OPML</category>
-<pubDate>Wed, 07 Oct 2026 22:13:37 +0000</pubDate>
+<title>Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks</title>
+<link>https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</link>
+<guid isPermaLink="true">https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</guid>
+<description>Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。（The Decoder：AI News（RSS））</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 09:24:17 +0000</pubDate>
 </item>
 <item>
-<title>First Forza Horizon 6 PS5 Gameplay Arrives as Release Date Is Revealed</title>
-<link>https://www.pushsquare.com/news/2026/10/first-forza-horizon-6-ps5-gameplay-arrives-as-release-date-is-revealed</link>
-<guid isPermaLink="true">https://www.pushsquare.com/news/2026/10/first-forza-horizon-6-ps5-gameplay-arrives-as-release-date-is-revealed</guid>
-<description>pushsquare.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 17:15:00 +0000</pubDate>
+<title>Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap</title>
+<link>https://www.youtube.com/shorts/n9WfoNW2XnE</link>
+<guid isPermaLink="true">https://www.youtube.com/shorts/n9WfoNW2XnE</guid>
+<description>Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。（Claude：YouTube（RSS））</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 15:53:13 +0000</pubDate>
 </item>
 <item>
-<title>"It's clear that we both adore one another's games a lot" - Dave the Diver and Subnautica 2 team up for a crossover made in heaven</title>
-<link>https://www.eurogamer.net/dave-the-diver-final-dlc-subnautica-2-crossover</link>
-<guid isPermaLink="true">https://www.eurogamer.net/dave-the-diver-final-dlc-subnautica-2-crossover</guid>
-<description>eurogamer.net</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 17:00:00 +0000</pubDate>
+<title>OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations</title>
+<link>https://openai.com/index/disrupting-ai-enabled-false-front-operations</link>
+<guid isPermaLink="true">https://openai.com/index/disrupting-ai-enabled-false-front-operations</guid>
+<description>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
+OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
+OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
+October 8, 2026
+Over the past two and a half years, we’ve reported on many of the ways（OpenAI News）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Best Buy Wants To Travel Back To 1998 With Zelda: Ocarina Of Time Midnight Launch</title>
-<link>https://www.gamespot.com/articles/best-buy-wants-to-travel-back-to-1998-with-zelda-ocarina-of-time-midnight-launch</link>
-<guid isPermaLink="true">https://www.gamespot.com/articles/best-buy-wants-to-travel-back-to-1998-with-zelda-ocarina-of-time-midnight-launch</guid>
-<description>gamespot.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 15:45:07 +0000</pubDate>
+<title>Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations</title>
+<link>https://claude.dev/blog/building-effective-agent-automations</link>
+<guid isPermaLink="true">https://claude.dev/blog/building-effective-agent-automations</guid>
+<description>Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。（Anthropic：Claude.dev 开发者博客（RSS））</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
-<title>35% of Sony’s Wolverine launch sales were the disc version, data suggests</title>
-<link>https://www.videogameschronicle.com/news/35-of-sonys-wolverine-launch-sales-were-the-disc-version-data-suggests</link>
-<guid isPermaLink="true">https://www.videogameschronicle.com/news/35-of-sonys-wolverine-launch-sales-were-the-disc-version-data-suggests</guid>
-<description>videogameschronicle.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 15:09:57 +0000</pubDate>
+<title>Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?</title>
+<link>https://x.com/thsottiaux/status/2108040921044639779</link>
+<guid isPermaLink="true">https://x.com/thsottiaux/status/2108040921044639779</guid>
+<description>作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。（X：Tibo (@thsottiaux)）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 03:44:55 +0000</pubDate>
 </item>
 <item>
-<title>Google Released Its Own Game Creation Platform</title>
-<link>https://80.lv/articles/google-released-its-own-game-creation-platform</link>
-<guid isPermaLink="true">https://80.lv/articles/google-released-its-own-game-creation-platform</guid>
-<description>80.lv</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 11:56:00 +0000</pubDate>
+<title>Claude Haiku 5.5 in GitHub Copilot</title>
+<link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</guid>
+<description>Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…
+Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer（GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
 </item>
 <item>
-<title>蚁群自动化策略游戏《蚁巢：荒野帝国》试玩版现已上线</title>
-<link>https://www.gcores.com/articles/220602</link>
-<guid isPermaLink="true">https://www.gcores.com/articles/220602</guid>
-<description>gcores.com</description>
-<category>RSS/OPML</category>
-<pubDate>Thu, 08 Oct 2026 05:31:14 +0000</pubDate>
+<title>腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理</title>
+<link>https://www.aibase.com/news/31478</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31478</guid>
+<description>Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files
+Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files
+Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files
+Explore AI Fronti（AIbase）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 16:54:58 +0000</pubDate>
 </item>
 </channel>
 </rss>
