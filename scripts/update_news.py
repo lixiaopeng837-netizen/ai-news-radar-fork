@@ -5254,9 +5254,10 @@ def translate_to_zh_deepseek(text: str, timeout: int = 20) -> str | None:
     else:
         term_list = "Codex、Claude、OpenAI、Anthropic、Hugging Face、The Information"
     system_prompt = (
-        "你是科技新闻编辑，把英文 AI/科技新闻标题翻译成地道的简体中文。"
-        "产品名、公司名、模型名、媒体名、人名一律保留英文原文不翻译"
+        "你是游戏营销行业编辑，把英文标题翻译成地道的简体中文。"
+        "产品名、公司名、游戏名、IP名、模型名、媒体名、人名一律保留英文原文不翻译"
         f"（如 {term_list}）。"
+        "营销术语用行业通用说法：联名/联动、campaign、代言、买量、快闪、二创、赛事赞助等。"
         "用自然的中文表达，说人话，避免翻译腔。"
         "只返回译文本身，不加引号，不加解释，长度贴近原标题的信息量。"
     )
