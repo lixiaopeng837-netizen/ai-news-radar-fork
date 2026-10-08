@@ -7,79 +7,35 @@ import re
 from typing import Any
 from urllib.parse import urlparse
 
-AI_KEYWORDS = [
-    "a.i.",
-    "agent view",
-    "agent skills",
-    "for agents",
-    "parallel agent",
-    "并行 agent",
-    "known agents",
-    "hermes-agent",
-    "agentmemory",
-    "aigc",
-    "llm",
-    "gpt",
-    "claude",
-    "gemini",
-    "deepseek",
-    "openai",
-    "anthropic",
-    "grok",
-    "copilot",
-    "codex",
-    "mcp",
-    "hugging face",
-    "huggingface",
-    "transformer",
-    "prompt",
-    "diffusion",
-    "多模态",
-    "交互模型",
-    "变换器",
-    "语言模型",
-    "视觉语言模型",
-    "基础模型",
-    "本地模型",
-    "具身智能",
-    "大模型",
-    "人工智能",
-    "机器学习",
-    "深度学习",
-    "智能体",
-    "算力",
-    "推理",
-    "微调",
+MARKETING_KEYWORDS = [
+    # 联动/联名
+    "联动", "联名", "跨界", "ip联动", "品牌联动", "联乘",
+    "crossover", "collab", "collaboration", "partnership",
+    # 营销/投放
+    "营销", "campaign", "marketing", "advertising", "广告", "投放", "买量", "品宣",
+    # 达人/KOL
+    "达人", "kol", "up主", "up 主", "博主", "主播", "网红", "influencer", "creator", "streamer",
+    # 二创/UGC
+    "二创", "同人", "手书", "coser", "cosplay", "ugc", "fan art", "fanart", "mmd",
+    # 话题/破圈
+    "话题", "热搜", "破圈", "出圈", "爆款", "social media", "社媒",
+    # 代言/快闪/线下
+    "代言", "快闪", "线下活动", "打卡", "sponsorship", "endorsement", "pop-up",
+    # 版本/上线
+    "公测", "上线", "周年", "版本", "新版本", "资料片", "launch", "release", "anniversary",
+    # 角色/皮肤
+    "角色", "皮肤", "外观", "限定", "抽卡", "卡池",
+    # 电竞/直播
+    "电竞", "赛事", "直播", "战队", "esports", "tournament", "livestream",
+    # 品牌
+    "品牌", "brand",
 ]
 
-TECH_KEYWORDS = [
-    "robot",
-    "robotics",
-    "embodied",
-    "autonomous",
-    "vision",
-    "chip",
-    "semiconductor",
-    "cuda",
-    "npu",
-    "gpu",
-    "cloud",
-    "developer",
-    "benchmark",
-    "dataset",
-    "eval",
-    "evaluation",
-    "sandbox",
-    "context",
-    "开源",
-    "技术",
-    "编程",
-    "软件",
-    "沙箱",
-    "上下文",
-    "芯片",
-    "机器人",
-    "具身",
+GAME_KEYWORDS = [
+    "游戏", "手游", "端游", "网游", "主机游戏", "game", "gaming",
+    "米哈游", "腾讯游戏", "网易游戏", "莉莉丝", "叠纸", "库洛", "鹰角",
+    "二次元", "开放世界", "竞技", "rpg", "mmo", "moba", "fps", "slg",
+    "steam", "playstation", "xbox", "nintendo",
 ]
 
 NOISE_KEYWORDS = [
@@ -130,11 +86,11 @@ MEANINGFUL_EN_SIGNAL_RE = re.compile(
     r"(?i)(?<![a-z0-9])(ai|aigc|llm|gpt|openai|anthropic|deepseek|gemini|claude|grok|xai|robot|robotics|embodied|autonomous|machine learning|artificial intelligence|transformer|diffusion)(?![a-z0-9])"
 )
 # "cursor" needs its own word-boundary regex rather than living in the plain
-# substring-matched AI_KEYWORDS list: "cursor" is a substring of ordinary
+# substring-matched MARKETING_KEYWORDS list: "cursor" is a substring of ordinary
 # words like "precursor" (e.g. Cloudflare's "Precursor" product announcement),
 # which was scoring 0.65/AI-related purely off that false substring match.
 CURSOR_SIGNAL_RE = re.compile(r"(?i)(?<![a-z0-9])cursor(?![a-z0-9])")
-BROAD_AI_TERMS = {"agent", "模型", "推理"}
+BROAD_AI_TERMS = {"游戏", "营销", "品牌"}
 AI_RELEVANCE_THRESHOLD = 0.65
 AI_BROAD_RELEVANCE_FLOOR = 0.3
 
@@ -231,7 +187,7 @@ def contains_meaningful_ai_signal(haystack: str) -> bool:
         return True
     if CURSOR_SIGNAL_RE.search(h):
         return True
-    return any(k in h for k in AI_KEYWORDS if k not in BROAD_AI_TERMS)
+    return any(k in h for k in MARKETING_KEYWORDS if k not in BROAD_AI_TERMS)
 
 
 def _label_for_text(text: str, has_tech: bool) -> str:
@@ -278,10 +234,10 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
         url_host = ""
     text = f"{title} {source} {site_name} {url_host}".lower()
 
-    ai_signals = matched_keywords(text, AI_KEYWORDS)
+    ai_signals = matched_keywords(text, MARKETING_KEYWORDS)
     if CURSOR_SIGNAL_RE.search(text) and "cursor" not in ai_signals:
         ai_signals = sorted(ai_signals + ["cursor"])
-    tech_signals = matched_keywords(text, TECH_KEYWORDS)
+    tech_signals = matched_keywords(text, GAME_KEYWORDS)
     noise = matched_keywords(text, NOISE_KEYWORDS) + matched_keywords(text, COMMERCE_NOISE_KEYWORDS)
     source_prior = SOURCE_PRIORS.get(site_id, 0.0)
 

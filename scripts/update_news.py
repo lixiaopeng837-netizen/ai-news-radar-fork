@@ -2534,20 +2534,8 @@ def fetch_newsnow(session: requests.Session, now: datetime) -> list[RawItem]:
 
 def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem], list[dict[str, Any]]]:
     tasks = [
-        ("official_ai", "Official AI Updates", fetch_official_ai_updates),
-        ("curated_media", "Curated Media", fetch_curated_ai_media),
-        ("aibreakfast", "AI Breakfast", fetch_ai_breakfast),
-        ("followbuilders", "Follow Builders", fetch_follow_builders),
-        ("techurls", "TechURLs", fetch_techurls),
-        ("buzzing", "Buzzing", fetch_buzzing),
-        ("iris", "Info Flow", fetch_iris),
-        ("bestblogs", "BestBlogs", fetch_bestblogs),
-        ("zeli", "Zeli", fetch_zeli),
-        ("hackernews", "Hacker News", fetch_hacker_news_algolia),
-        ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
-        ("aibase", "AIbase", fetch_aibase),
-        ("aihot", "AI HOT", fetch_aihot),
-        ("newsnow", "NewsNow", fetch_newsnow),
+        # 营销情报雷达版：禁用全部 AI 聚合站内置 fetcher，信源只走 OPML（feeds/follow.opml）
+        # 原 AI News Radar 的内置源（official_ai/curated_media/aihot/buzzing 等）与营销版无关
     ]
 
     raw_items: list[RawItem] = []

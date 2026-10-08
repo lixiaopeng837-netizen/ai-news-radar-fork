@@ -1,82 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
-  <head>
-    <title>AI News Radar RSS Example</title>
-  </head>
+  <head><title>营销情报雷达 · 信源订阅</title></head>
   <body>
-    <outline text="Official AI Sources">
-      <outline
-        text="OpenAI News"
-        title="OpenAI News"
-        type="rss"
-        xmlUrl="https://openai.com/news/rss.xml"
-        htmlUrl="https://openai.com/news"
-      />
-      <outline
-        text="Hugging Face Blog"
-        title="Hugging Face Blog"
-        type="rss"
-        xmlUrl="https://huggingface.co/blog/feed.xml"
-        htmlUrl="https://huggingface.co/blog"
-      />
-      <outline
-        text="Google DeepMind Blog"
-        title="Google DeepMind Blog"
-        type="rss"
-        xmlUrl="https://deepmind.google/blog/rss.xml"
-        htmlUrl="https://deepmind.google/discover/blog/"
-      />
-      <outline
-        text="Google AI Blog"
-        title="Google AI Blog"
-        type="rss"
-        xmlUrl="https://blog.google/technology/ai/rss/"
-        htmlUrl="https://blog.google/technology/ai/"
-      />
-      <outline
-        text="Microsoft AI Blog"
-        title="Microsoft AI Blog"
-        type="rss"
-        xmlUrl="https://news.microsoft.com/source/topics/ai/feed/"
-        htmlUrl="https://news.microsoft.com/source/topics/ai/"
-      />
+    <outline text="AI 营销源">
+      <outline text="adexchanger.com" title="adexchanger.com" type="rss" xmlUrl="https://www.adexchanger.com/feed/" htmlUrl="https://www.adexchanger.com" />
+      <outline text="marketingdive.com" title="marketingdive.com" type="rss" xmlUrl="https://www.marketingdive.com/feeds/news/" htmlUrl="https://www.marketingdive.com" />
+      <outline text="digiday.com" title="digiday.com" type="rss" xmlUrl="https://digiday.com/feed/" htmlUrl="https://digiday.com" />
+      <outline text="socialmediatoday.com" title="socialmediatoday.com" type="rss" xmlUrl="https://www.socialmediatoday.com/feeds/news/" htmlUrl="https://www.socialmediatoday.com" />
+      <outline text="adweek.com" title="adweek.com" type="rss" xmlUrl="https://www.adweek.com/feed/" htmlUrl="https://www.adweek.com" />
     </outline>
-    <outline text="AI Media and Builders">
-      <outline
-        text="Wired AI"
-        title="Wired AI"
-        type="rss"
-        xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss"
-        htmlUrl="https://www.wired.com/tag/artificial-intelligence/"
-      />
-      <outline
-        text="InfoQ CN"
-        title="InfoQ CN"
-        type="rss"
-        xmlUrl="https://www.infoq.cn/feed"
-        htmlUrl="https://www.infoq.cn/"
-      />
-      <outline
-        text="NVIDIA Generative AI Blog"
-        title="NVIDIA Generative AI Blog"
-        type="rss"
-        xmlUrl="https://developer.nvidia.com/blog/category/generative-ai/feed/"
-        htmlUrl="https://developer.nvidia.com/blog/category/generative-ai/"
-      />
-      <outline
-        text="宝玉"
-        title="宝玉"
-        type="rss"
-        xmlUrl="https://baoyu.io/feed.xml"
-        htmlUrl="https://baoyu.io/"
-      />
-      <outline
-        text="Simon Willison"
-        title="Simon Willison"
-        type="rss"
-        xmlUrl="https://simonwillison.net/atom/everything/"
-        htmlUrl="https://simonwillison.net/"
-      />
+    <outline text="英文游戏资讯">
+      <outline text="feeds.ign.com" title="feeds.ign.com" type="rss" xmlUrl="https://feeds.ign.com/ign/all" htmlUrl="https://feeds.ign.com" />
+      <outline text="eurogamer.net" title="eurogamer.net" type="rss" xmlUrl="https://www.eurogamer.net/feed" htmlUrl="https://www.eurogamer.net" />
+      <outline text="gamespot.com" title="gamespot.com" type="rss" xmlUrl="https://www.gamespot.com/feeds/game-news/" htmlUrl="https://www.gamespot.com" />
+      <outline text="pcgamer.com" title="pcgamer.com" type="rss" xmlUrl="https://www.pcgamer.com/rss/" htmlUrl="https://www.pcgamer.com" />
+      <outline text="rockpapershotgun.com" title="rockpapershotgun.com" type="rss" xmlUrl="https://www.rockpapershotgun.com/feed" htmlUrl="https://www.rockpapershotgun.com" />
+      <outline text="gematsu.com" title="gematsu.com" type="rss" xmlUrl="https://www.gematsu.com/feed/" htmlUrl="https://www.gematsu.com" />
+      <outline text="videogameschronicle.com" title="videogameschronicle.com" type="rss" xmlUrl="https://www.videogameschronicle.com/feed/" htmlUrl="https://www.videogameschronicle.com" />
+      <outline text="automaton-media.com" title="automaton-media.com" type="rss" xmlUrl="https://automaton-media.com/feed/" htmlUrl="https://automaton-media.com" />
+    </outline>
+    <outline text="英文游戏产业">
+      <outline text="gamesindustry.biz" title="gamesindustry.biz" type="rss" xmlUrl="https://www.gamesindustry.biz/feed" htmlUrl="https://www.gamesindustry.biz" />
+      <outline text="mobilegamer.biz" title="mobilegamer.biz" type="rss" xmlUrl="https://mobilegamer.biz/feed/" htmlUrl="https://mobilegamer.biz" />
+      <outline text="pushsquare.com" title="pushsquare.com" type="rss" xmlUrl="https://www.pushsquare.com/feeds/latest" htmlUrl="https://www.pushsquare.com" />
+      <outline text="nintendolife.com" title="nintendolife.com" type="rss" xmlUrl="https://www.nintendolife.com/feeds/latest" htmlUrl="https://www.nintendolife.com" />
+      <outline text="naavik.co" title="naavik.co" type="rss" xmlUrl="https://naavik.co/feed/" htmlUrl="https://naavik.co" />
+      <outline text="newsletter.gamediscover.co" title="newsletter.gamediscover.co" type="rss" xmlUrl="https://newsletter.gamediscover.co/feed" htmlUrl="https://newsletter.gamediscover.co" />
+      <outline text="80.lv" title="80.lv" type="rss" xmlUrl="https://80.lv/feed/" htmlUrl="https://80.lv" />
+    </outline>
+    <outline text="中文游戏媒体">
+      <outline text="youxituoluo.com" title="youxituoluo.com" type="rss" xmlUrl="https://www.youxituoluo.com/feed" htmlUrl="https://www.youxituoluo.com" />
+      <outline text="youxichaguan.com" title="youxichaguan.com" type="rss" xmlUrl="https://www.youxichaguan.com/feed" htmlUrl="https://www.youxichaguan.com" />
+      <outline text="gcores.com" title="gcores.com" type="rss" xmlUrl="https://www.gcores.com/rss" htmlUrl="https://www.gcores.com" />
+      <outline text="nadianshi.com" title="nadianshi.com" type="rss" xmlUrl="http://www.nadianshi.com/feed" htmlUrl="https://www.nadianshi.com" />
+      <outline text="chuapp.com" title="chuapp.com" type="rss" xmlUrl="https://www.chuapp.com/feed" htmlUrl="https://www.chuapp.com" />
+      <outline text="gamelook.com.cn" title="gamelook.com.cn" type="rss" xmlUrl="http://www.gamelook.com.cn/feed" htmlUrl="https://www.gamelook.com.cn" />
     </outline>
   </body>
 </opml>
