@@ -1293,12 +1293,23 @@ function itemToRow(item, index = 0) {
   };
 }
 
+// 营销优先分层：营销动作标签置顶强推，行业动态（游戏/AI新闻）垫底
+const MARKETING_ACTION_LABELS = new Set(["collab", "campaign", "influencer", "ugc", "esports", "game_launch"]);
+
+function marketingActionBoost(item) {
+  return MARKETING_ACTION_LABELS.has(item?.ai_label) ? 1000000 : 0;
+}
+
 function mainListEntries() {
   if (state.mode === "all") {
     return mainListRawItems().map((item, index) => {
       const ms = timelineMs(item);
-      return { row: itemToRow(item, index), timeMs: ms };
-    }).sort((a, b) => b.timeMs - a.timeMs);
+      return { row: itemToRow(item, index), timeMs: ms, item };
+    }).sort((a, b) => {
+      const boost = marketingActionBoost(b.item) - marketingActionBoost(a.item);
+      if (boost !== 0) return boost;
+      return b.timeMs - a.timeMs;
+    });
   }
   return mainListStories().map((story, index) => {
     const ms = storyTimeMs(story, "latest_at") || storyTimeMs(story, "earliest_at");

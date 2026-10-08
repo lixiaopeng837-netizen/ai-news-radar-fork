@@ -768,6 +768,13 @@ function modeItems() {
   return state.mode === "all" ? effectiveAllItems() : safeItems(state.itemsAi);
 }
 
+// 营销优先分层：营销动作标签置顶强推，行业动态（游戏/AI新闻）垫底
+const MARKETING_ACTION_LABELS = new Set(["collab", "campaign", "influencer", "ugc", "esports", "game_launch"]);
+
+function marketingActionBoost(item) {
+  return MARKETING_ACTION_LABELS.has(item?.ai_label) ? 1000000 : 0;
+}
+
 function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   if (sectionId === "creator") {
     const creatorSource = state.mode === "all" ? state.creatorItemsAll : state.creatorItemsAi;
@@ -775,7 +782,11 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
   }
   const source = Array.isArray(items) ? items : [];
   if (sectionId === "all") {
-    return [...source].sort((a, b) => itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a));
+    return [...source].sort((a, b) => {
+      const boost = marketingActionBoost(b) - marketingActionBoost(a);
+      if (boost !== 0) return boost;
+      return itemPriorityScore(b) - itemPriorityScore(a) || timelineMs(b) - timelineMs(a);
+    });
   }
   return source.filter((item) => itemMatchesSection(item, sectionId));
 }
