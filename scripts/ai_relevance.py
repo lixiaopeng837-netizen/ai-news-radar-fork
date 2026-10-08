@@ -153,14 +153,14 @@ CURATED_MEDIA_BUSINESS_TERMS = [
 ]
 
 LABEL_KEYWORDS = [
-    ("model_release", ["model", "gpt", "claude", "gemini", "deepseek", "llm", "模型", "大模型", "发布", "release"]),
-    ("developer_tool", ["copilot", "codex", "mcp", "api", "sdk", "developer", "开发者", "编程", "代码", "coding"]),
-    ("agent_workflow", ["agent", "智能体", "workflow", "工作流", "tool use", "function calling"]),
-    ("research_paper", ["paper", "arxiv", "research", "benchmark", "eval", "论文", "研究", "评测", "榜单"]),
-    ("infra_compute", ["gpu", "npu", "cuda", "chip", "semiconductor", "算力", "芯片", "推理"]),
-    ("robotics", ["robot", "robotics", "embodied", "机器人", "具身"]),
-    ("industry_business", ["funding", "acquire", "融资", "收购", "估值", "营收", "公司"]),
-    ("ai_product_update", ["openai", "anthropic", "google", "perplexity", "cursor", "产品", "上线", "更新"]),
+    ("collab", ["联动", "联名", "跨界", "联乘", "crossover", "collab", "collaboration", "partnership"]),
+    ("campaign", ["营销", "campaign", "广告", "投放", "买量", "品宣", "快闪", "代言", "sponsorship", "endorsement"]),
+    ("influencer", ["达人", "kol", "up主", "up 主", "主播", "网红", "博主", "influencer", "creator", "streamer"]),
+    ("ugc", ["二创", "同人", "手书", "coser", "cosplay", "ugc", "fan art", "fanart", "mmd"]),
+    ("game_launch", ["公测", "上线", "周年", "版本", "资料片", "预约", "新游", "launch", "release", "anniversary"]),
+    ("esports", ["电竞", "赛事", "直播", "战队", "联赛", "esports", "tournament", "livestream"]),
+    ("industry", ["融资", "收购", "财报", "营收", "战略", "并购", "funding", "acquire", "investor"]),
+    ("product", ["角色", "皮肤", "外观", "限定", "抽卡", "卡池", "新角色", "dlc"]),
 ]
 
 
@@ -195,8 +195,8 @@ def _label_for_text(text: str, has_tech: bool) -> str:
         if contains_any_keyword(text, keywords):
             return label
     if has_tech:
-        return "ai_tech"
-    return "ai_general"
+        return "game"
+    return "marketing"
 
 
 def _result(

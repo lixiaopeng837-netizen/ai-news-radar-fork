@@ -134,14 +134,14 @@ const AIHOT_SUB_TONES = { x: "builders", wechat: "creator", hn: "aggregate", rss
 
 // 单层内容 tab：全部（默认，无过滤）+ 5 个主题栏目 + 社区 + 自媒体，互斥单值。
 const SECTION_DEFS = [
-  { id: "all", label: "全部", short: "全部", description: "不筛选内容栏目，查看全部信号" },
-  { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
-  { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
-  { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
-  { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
-  { id: "research", label: "论文", short: "论文", description: "论文、基准、方法、数据集与研究团队动态" },
-  { id: "community", label: "社区", short: "社区", description: "HN、中文技术社区与社群动态" },
-  { id: "creator", label: "自媒体", short: "自媒体", description: "抖音、小红书等自媒体创作者内容" },
+  { id: "all", label: "全部", short: "全部", description: "不筛选内容栏目，查看全部营销信号" },
+  { id: "collab", label: "联动联名", short: "联动", description: "IP联动、品牌联名、跨界合作案例" },
+  { id: "campaign", label: "营销活动", short: "营销", description: "营销campaign、投放买量、快闪代言" },
+  { id: "influencer", label: "达人营销", short: "达人", description: "达人、KOL、UP主、主播合作动态" },
+  { id: "ugc", label: "二创UGC", short: "二创", description: "二创、同人、cosplay、UGC内容" },
+  { id: "game_launch", label: "游戏宣发", short: "宣发", description: "公测、上线、周年、版本更新" },
+  { id: "esports", label: "电竞赛事", short: "电竞", description: "电竞赛事、直播、战队动态" },
+  { id: "industry", label: "行业动态", short: "行业", description: "公司战略、融资收购、财报营收" },
 ];
 
 const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
@@ -566,13 +566,12 @@ function scoreTone(score) {
 function itemLabelTone(item) {
   const label = item.ai_label || "";
   if (item.site_id === "official_ai") return "official";
-  if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
-  if (itemSourceGroup(item) === "creator") return "creator";
-  if (label === "model_release") return "models";
-  if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
-  if (label === "research_paper") return "research";
-  if (label === "industry_business") return "industry";
-  if (label === "ai_product_update" || label === "agent_workflow" || label === "robotics") return "products";
+  if (label === "collab" || label === "campaign") return "hot";
+  if (label === "influencer" || label === "ugc") return "creator";
+  if (label === "game_launch") return "official";
+  if (label === "esports") return "hot";
+  if (label === "industry") return "industry";
+  if (label === "product") return "products";
   return "default";
 }
 
@@ -649,21 +648,18 @@ function itemPriorityScore(item) {
 
 function labelText(item) {
   const labels = {
-    ai_general: "AI信号",
-    model_release: "模型发布",
-    agent_workflow: "Agent工作流",
-    ai_product_update: "产品更新",
-    developer_tooling: "开发工具",
-    developer_tool: "开发工具",
-    infrastructure: "基础设施",
-    infra_compute: "基础设施",
-    industry_business: "行业动态",
-    research_paper: "研究论文",
-    robotics: "机器人",
-    curated_hotlist: "热点",
-    ai_tech: "技术趋势",
+    collab: "联动联名",
+    campaign: "营销活动",
+    influencer: "达人营销",
+    ugc: "二创UGC",
+    game_launch: "游戏宣发",
+    esports: "电竞赛事",
+    industry: "行业动态",
+    product: "产品动态",
+    game: "游戏动态",
+    marketing: "营销信号",
   };
-  return labels[item.ai_label] || item.ai_label || "精选信号";
+  return labels[item.ai_label] || item.ai_label || "营销信号";
 }
 
 function itemHaystack(item) {
@@ -686,32 +682,39 @@ function matchesAny(text, patterns) {
 
 // 主题分类：优先用后端 ai_label，泛化标签走正则优先级（首个命中即停）
 const AI_LABEL_SECTION_MAP = {
-  model_release: "models",
-  ai_product_update: "products",
-  agent_workflow: "products",
-  robotics: "products",
-  developer_tool: "devtools",
-  developer_tooling: "devtools",
-  infra_compute: "devtools",
-  research_paper: "research",
-  industry_business: "industry",
+  collab: "collab",
+  campaign: "campaign",
+  influencer: "influencer",
+  ugc: "ugc",
+  game_launch: "game_launch",
+  esports: "esports",
+  industry: "industry",
+  product: "all",
+  game: "all",
+  marketing: "all",
 };
 
 const SECTION_FALLBACK_RULES = [
-  ["research", [
-    /paper|arxiv|research|benchmark|eval|dataset|lmsys|rdi|berkeley|huggingface daily papers|论文|研究|基准|评测|数据集|训练|k-means|speculative decoding/,
+  ["collab", [
+    /联动|联名|跨界|联乘|crossover|collab|collaboration|partnership/,
   ]],
-  ["models", [
-    /gpt[-\s]?\d|claude|gemini|grok|llama|qwen|deepseek|mistral|kimi\s?k\d|glm|gemma|模型|model|weights|权重|多模态|视频生成|diffusion|sora|seedance|llm|大模型/,
+  ["campaign", [
+    /营销|campaign|广告|投放|买量|快闪|代言|sponsorship|endorsement|广告片|tvc/,
   ]],
-  ["devtools", [
-    /github|cursor|codex|copilot|openrouter|api|sdk|mcp|cli|framework|inference|推理|开发者|开源|代码|编程|算力|芯片|nvidia|cloud|部署|benchmarking|token/,
+  ["influencer", [
+    /达人|kol|up主|主播|网红|博主|influencer|creator|streamer|商单/,
   ]],
-  ["products", [
-    /app|product|agent|workflow|siri|copilot|chatgpt|perplexity|runway|suno|支付宝|产品|应用|智能体|机器人|浏览器|搜索|助手|生成工具|办公|教育/,
+  ["ugc", [
+    /二创|同人|手书|coser|cosplay|ugc|fan art|fanart|mmd|mod/,
+  ]],
+  ["game_launch", [
+    /公测|上线|周年|版本|资料片|预约|新游|launch|release|anniversary|dlc/,
+  ]],
+  ["esports", [
+    /电竞|赛事|直播|战队|联赛|esports|tournament|livestream|世界赛/,
   ]],
   ["industry", [
-    /funding|raised|ipo|acquire|acquisition|lawsuit|regulation|policy|white house|pentagon|nvidia|salesforce|meta|microsoft|融资|收购|上市|监管|政策|裁员|估值|债券|芯片|公司|行业|政府|五角大楼|白宫/,
+    /融资|收购|财报|营收|战略|并购|funding|acquire|ipo|上市|裁员|监管|investor/,
   ]],
 ];
 
