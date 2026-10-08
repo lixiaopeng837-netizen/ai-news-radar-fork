@@ -5,7 +5,7 @@
 <link>https://news.learnprompt.pro</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 08 Oct 2026 16:48:12 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 17:32:23 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://news.learnprompt.pro/data/feed.xml"/>
 <item>
 <title>OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone</title>
@@ -46,14 +46,6 @@
 <description>GitHub AI &amp; ML</description>
 <category>官方更新</category>
 <pubDate>Wed, 07 Oct 2026 17:45:34 +0000</pubDate>
-</item>
-<item>
-<title>面向边缘设备的多模态开放 d1 决策模型 / Multimodal open d1 decision models for the edge</title>
-<link>https://huggingface.co/blog/LiquidAI/open-d1</link>
-<guid isPermaLink="true">https://huggingface.co/blog/LiquidAI/open-d1</guid>
-<description>Hugging Face Blog</description>
-<category>官方更新</category>
-<pubDate>Wed, 07 Oct 2026 16:54:33 +0000</pubDate>
 </item>
 <item>
 <title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
@@ -136,14 +128,6 @@
 <pubDate>Thu, 08 Oct 2026 07:00:00 +0000</pubDate>
 </item>
 <item>
-<title>腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理</title>
-<link>https://www.aibase.com/news/31478</link>
-<guid isPermaLink="true">https://www.aibase.com/news/31478</guid>
-<description>AIbase</description>
-<category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 12:02:12 +0000</pubDate>
-</item>
-<item>
 <title>Anthropic 发布 Claude Haiku 5.5，Artificial Analysis 智能指数得分 43 / Anthropic has released Claude Haiku 5.5, scoring 43 on the Artificial Analysis Intelligence Index - up 26 points one year after the last ...</title>
 <link>https://x.com/ArtificialAnlys/status/2107911905822351609</link>
 <guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2107911905822351609</guid>
@@ -152,17 +136,33 @@
 <pubDate>Wed, 07 Oct 2026 19:12:16 +0000</pubDate>
 </item>
 <item>
+<title>腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理</title>
+<link>https://www.aibase.com/news/31478</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31478</guid>
+<description>AIbase</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 12:02:12 +0000</pubDate>
+</item>
+<item>
 <title>Anthropic 将 Claude Sonnet 5.5 缓存读取价格减半至每百万 token $0.10 / One more thing: we’re halving the price of cache reads on Claude Sonnet 5.5, to $0.10 per million tokens. That makes Sonnet 5.5 around 20...</title>
 <link>https://x.com/claudeai/status/2107894060229034197</link>
 <guid isPermaLink="true">https://x.com/claudeai/status/2107894060229034197</guid>
 <description>Anthropic 宣布将 Claude Sonnet 5.5 的缓存读取价格减半，降至每百万 token $0.10。官方称这使 Sonnet 5.5 在多数长期运行任务上的运行成本降低约 20%。（X：Claude (@claudeai)）</description>
-<category>行业动态</category>
+<category>值得关注</category>
 <pubDate>Wed, 07 Oct 2026 18:01:21 +0000</pubDate>
 </item>
 <item>
 <title>谷歌把AI搜索塞进手机：EmbeddingGemma2 开源，不到600MB断网照样搜图文音视频</title>
 <link>https://www.aibase.com/news/31476</link>
 <guid isPermaLink="true">https://www.aibase.com/news/31476</guid>
+<description>AIbase</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 12:02:12 +0000</pubDate>
+</item>
+<item>
+<title>阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假</title>
+<link>https://www.aibase.com/news/31479</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31479</guid>
 <description>AIbase</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 12:02:12 +0000</pubDate>
