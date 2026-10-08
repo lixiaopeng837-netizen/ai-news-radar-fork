@@ -281,9 +281,9 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
             )
 
         if research_source or title_has_research:
-            label = "research_paper"
+            label = _label_for_text(text, bool(tech_signals))
         elif contains_any_keyword(title_l, CURATED_MEDIA_BUSINESS_TERMS):
-            label = "industry_business"
+            label = "industry"
         else:
             label = _label_for_text(text, bool(tech_signals))
         base = 0.58 if trusted_source else 0.5
