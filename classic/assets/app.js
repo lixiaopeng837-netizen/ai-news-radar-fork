@@ -470,17 +470,26 @@ function renderAdvancedSummary() {
   advancedSummaryEl.textContent = `${fmtNumber(filteredCount)} 条结果 · ${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常${failed ? ` · 失败 ${fmtNumber(failed)}` : ""}`;
 }
 
+// OPML RSS 有 36 个具体 feed，但都带 site_id="opmlrss"；来源筛选时按 source（feed 名）细分，
+// 避免 36 个信源在页面上被合并成一个 "OPML RSS"。
+function itemSourceKey(item) {
+  if (item.site_id === "opmlrss") return `opml:${item.source || item.site_id}`;
+  return item.site_id;
+}
+
 function computeSiteStats(items) {
   const m = new Map();
   items.forEach((item) => {
-    if (!m.has(item.site_id)) {
-      m.set(item.site_id, { site_id: item.site_id, site_name: item.site_name, count: 0, raw_count: 0 });
+    const key = itemSourceKey(item);
+    const name = item.site_id === "opmlrss" ? (item.source || item.site_name) : item.site_name;
+    if (!m.has(key)) {
+      m.set(key, { site_id: key, site_name: name, count: 0, raw_count: 0 });
     }
-    const row = m.get(item.site_id);
+    const row = m.get(key);
     row.count += 1;
     row.raw_count += 1;
   });
-  return Array.from(m.values()).sort((a, b) => b.count - a.count || a.site_name.localeCompare(b.site_name, "zh-CN"));
+  return Array.from(m.values()).sort((a, b) => b.count - a.count || (a.site_name || "").localeCompare(b.site_name || "", "zh-CN"));
 }
 
 function safeAiSiteStats() {
@@ -774,7 +783,7 @@ function sectionItems(items = modeItems(), sectionId = state.activeSection) {
 function getFilteredItems() {
   const q = state.query.trim().toLowerCase();
   const preliminary = sectionItems().filter((item) => {
-    if (state.siteFilter && item.site_id !== state.siteFilter) return false;
+    if (state.siteFilter && itemSourceKey(item) !== state.siteFilter) return false;
     if (state.authorFilter && (item.site_id !== "socialdata_x" || item.source !== state.authorFilter)) return false;
     if (state.sourceTypeFilter && itemSourceType(item) !== state.sourceTypeFilter) return false;
     if (!q) return true;

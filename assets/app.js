@@ -369,17 +369,25 @@ function clearAllFilters() {
   rerenderCurrentView();
 }
 
+// OPML RSS 有 36 个具体 feed，但都带 site_id="opmlrss"；来源筛选时按 source（feed 名）细分。
+function itemSourceKey(item) {
+  if (item.site_id === "opmlrss") return `opml:${item.source || item.site_id}`;
+  return item.site_id;
+}
+
 function computeSiteStats(items) {
   const m = new Map();
   items.forEach((item) => {
-    if (!m.has(item.site_id)) {
-      m.set(item.site_id, { site_id: item.site_id, site_name: item.site_name, count: 0, raw_count: 0 });
+    const key = itemSourceKey(item);
+    const name = item.site_id === "opmlrss" ? (item.source || item.site_name) : item.site_name;
+    if (!m.has(key)) {
+      m.set(key, { site_id: key, site_name: name, count: 0, raw_count: 0 });
     }
-    const row = m.get(item.site_id);
+    const row = m.get(key);
     row.count += 1;
     row.raw_count += 1;
   });
-  return Array.from(m.values()).sort((a, b) => b.count - a.count || a.site_name.localeCompare(b.site_name, "zh-CN"));
+  return Array.from(m.values()).sort((a, b) => b.count - a.count || (a.site_name || "").localeCompare(b.site_name || "", "zh-CN"));
 }
 
 // 具体来源下拉/站点 pill 的统计口径跟随当前模式：精选=AI 相关池，全量=原始条目池。
@@ -863,7 +871,7 @@ function storyMatchesSiteFilter(story) {
     ...(Array.isArray(story.sources) ? story.sources : []),
   ].filter(Boolean);
   return refs.some((ref) => {
-    if (state.siteFilter && ref.site_id !== state.siteFilter) return false;
+    if (state.siteFilter && itemSourceKey(ref) !== state.siteFilter) return false;
     if (state.authorFilter && itemXAuthor(ref) !== state.authorFilter) return false;
     return true;
   });
@@ -1232,7 +1240,7 @@ function mainListStoriesBase() {
 function mainListRawItemsBase() {
   const q = state.query.trim().toLowerCase();
   return effectiveAllItems().filter((item) => {
-    if (state.siteFilter && item.site_id !== state.siteFilter) return false;
+    if (state.siteFilter && itemSourceKey(item) !== state.siteFilter) return false;
     if (state.authorFilter && itemXAuthor(item) !== state.authorFilter) return false;
     if (!q) return true;
     return itemHaystack(item).includes(q);
