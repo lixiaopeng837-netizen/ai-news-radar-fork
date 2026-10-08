@@ -5,15 +5,15 @@
 <link>https://news.learnprompt.pro</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 08 Oct 2026 17:52:52 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 18:20:00 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://news.learnprompt.pro/data/feed.xml"/>
 <item>
-<title>OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone</title>
-<link>https://openai.com/index/gpt-6-for-everyone</link>
-<guid isPermaLink="true">https://openai.com/index/gpt-6-for-everyone</guid>
-<description>GPT-6 全量开放，今天就能上手试，先拿自己业务跑一轮对比再决定换不换。（OpenAI：官网动态（RSS · 排除企业/客户案例））</description>
+<title>Screen readers can navigate timelines as lists</title>
+<link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
+<description>无障碍改进，做前端可访问性的顺手升级，其他人不用管。（GitHub Changelog）</description>
 <category>官方更新</category>
-<pubDate>Wed, 07 Oct 2026 18:00:58 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
 </item>
 <item>
 <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
@@ -22,14 +22,6 @@
 <description>Oracle 用 ChatGPT 提效的案例，没给可复用的工具或方案，看看就行。（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
-</item>
-<item>
-<title>Screen readers can navigate timelines as lists</title>
-<link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
-<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
-<description>无障碍改进，做前端可访问性的顺手升级，其他人不用管。（GitHub Changelog）</description>
-<category>官方更新</category>
-<pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
 </item>
 <item>
 <title>【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1</title>
@@ -54,6 +46,14 @@
 <description>草稿 PR 也占配额了，CI 里自动开草稿的脚本得改，否则容易撞上限。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 14:25:53 +0000</pubDate>
+</item>
+<item>
+<title>GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work</title>
+<link>https://developers.openai.com/codex/changelog</link>
+<guid isPermaLink="true">https://developers.openai.com/codex/changelog</guid>
+<description>Codex 里能直接切新模型，写代码的先试跑一轮看提速多少。（OpenAI Codex Changelog）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
@@ -88,20 +88,12 @@
 <pubDate>Thu, 08 Oct 2026 17:20:58 +0000</pubDate>
 </item>
 <item>
-<title>Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:</title>
-<link>https://x.com/ClaudeDevs/status/2107895957933408429</link>
-<guid isPermaLink="true">https://x.com/ClaudeDevs/status/2107895957933408429</guid>
-<description>订阅套餐白送 API 额度，Claude Max 用户跑脚本能省一笔，值得查下额度规则。（X：Claude Devs (@ClaudeDevs)）</description>
+<title>Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障 / The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent</title>
+<link>https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent</link>
+<guid isPermaLink="true">https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent</guid>
+<description>生产 Agent 排障工具开源，能 clone 就能试，跑 Agent 的团队值得花半天接一下。（Google Developers Blog（RSS））</description>
 <category>官方更新</category>
-<pubDate>Wed, 07 Oct 2026 18:08:53 +0000</pubDate>
-</item>
-<item>
-<title>Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题</title>
-<link>https://github.com/anthropics/claude-code/releases/tag/v2.1.293</link>
-<guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.293</guid>
-<description>Claude Code 用户直接升级，新 Haiku 5.5 更快更省，顺手修了一堆 bug。（Claude Code：GitHub Releases（RSS））</description>
-<category>官方更新</category>
-<pubDate>Wed, 07 Oct 2026 18:10:20 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!</title>
@@ -166,6 +158,14 @@
 <description>本地文件接 AI 处理，思路实用，但得看是否开放 API 和跨平台，否则只是腾讯生态内的小工具。（AIbase）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 16:54:58 +0000</pubDate>
+</item>
+<item>
+<title>LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock / Agents that can pay: building Restock with Stripe's Link and Managed Deep Agents</title>
+<link>https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link</link>
+<guid isPermaLink="true">https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link</guid>
+<description>智能体接支付是新方向，但目前只是案例博客，没开源代码，先观望。（LangChain：Blog（RSS））</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 16:21:08 +0000</pubDate>
 </item>
 </channel>
 </rss>

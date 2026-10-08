@@ -156,6 +156,36 @@
       "review": "第三方榜单排名和价格有据，但无论文无开源，评测细节不可复现。",
       "title_hash": "5380835a",
       "scored_at": "2026-10-08T18:01:09.959043Z"
+    },
+    "story_d783a04fd0f6|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "Codex 里能直接切新模型，写代码的先试跑一轮看提速多少。",
+      "title_hash": "95599a93",
+      "scored_at": "2026-10-08T18:24:18.301224Z"
+    },
+    "story_f2bdd4f1edba|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "生产 Agent 排障工具开源，能 clone 就能试，跑 Agent 的团队值得花半天接一下。",
+      "title_hash": "91dcc5d5",
+      "scored_at": "2026-10-08T18:24:19.111626Z"
+    },
+    "story_797995771248|pragmatic|0a5c5b24": {
+      "score": 62,
+      "review": "智能体接支付是新方向，但目前只是案例博客，没开源代码，先观望。",
+      "title_hash": "3e3dc583",
+      "scored_at": "2026-10-08T18:24:19.850477Z"
+    },
+    "story_d783a04fd0f6|cynic|f4237a62": {
+      "score": 58,
+      "review": "版本号从6跳到6.1还加个Ultrafast，更新日志里除了名字和形容词，跑分和延迟数据呢？",
+      "title_hash": "95599a93",
+      "scored_at": "2026-10-08T18:24:20.878047Z"
+    },
+    "story_d783a04fd0f6|paper-police|966065bf": {
+      "score": 30,
+      "review": "仅一条官方 changelog 链接，无论文、无开源、无公开 benchmark，性能宣称无从复现。",
+      "title_hash": "95599a93",
+      "scored_at": "2026-10-08T18:24:21.675034Z"
     }
   }
 }

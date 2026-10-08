@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:01:09.959103Z",
+  "generated_at": "2026-10-08T18:24:21.675123Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -17,22 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_6557dda4a6cd",
-      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "story_id": "story_d783a04fd0f6",
+      "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+      "url": "https://developers.openai.com/codex/changelog",
       "rank": 1,
       "reviews": {
         "cynic": {
           "score": 58,
-          "review": "向全部用户开放这点是真的，但\"Intelligent UI\"没给评测数据，先别急着封神。"
+          "review": "版本号从6跳到6.1还加个Ultrafast，更新日志里除了名字和形容词，跑分和延迟数据呢？"
         },
         "paper-police": {
-          "score": 38,
-          "review": "官方发布页加HN热议，但无论文、无代码、无第三方复现，只有宣称。"
+          "score": 30,
+          "review": "仅一条官方 changelog 链接，无论文、无开源、无公开 benchmark，性能宣称无从复现。"
         },
         "pragmatic": {
-          "score": 92,
-          "review": "GPT-6 全量开放，今天就能上手试，先拿自己业务跑一轮对比再决定换不换。"
+          "score": 88,
+          "review": "Codex 里能直接切新模型，写代码的先试跑一轮看提速多少。"
         }
       }
     },
