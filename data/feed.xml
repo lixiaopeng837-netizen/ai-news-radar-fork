@@ -5,13 +5,13 @@
 <link>https://news.learnprompt.pro</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 08 Oct 2026 17:47:58 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 17:52:52 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://news.learnprompt.pro/data/feed.xml"/>
 <item>
 <title>OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone</title>
 <link>https://openai.com/index/gpt-6-for-everyone</link>
 <guid isPermaLink="true">https://openai.com/index/gpt-6-for-everyone</guid>
-<description>OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。（OpenAI：官网动态（RSS · 排除企业/客户案例））</description>
+<description>GPT-6 全量开放，今天就能上手试，先拿自己业务跑一轮对比再决定换不换。（OpenAI：官网动态（RSS · 排除企业/客户案例））</description>
 <category>官方更新</category>
 <pubDate>Wed, 07 Oct 2026 18:00:58 +0000</pubDate>
 </item>
@@ -19,11 +19,7 @@
 <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
 <link>https://openai.com/index/oracle</link>
 <guid isPermaLink="true">https://openai.com/index/oracle</guid>
-<description>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
-Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
-Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.
-October 8, 2026
-Across recruiting, engineering, and operations, Oracle （OpenAI News）</description>
+<description>Oracle 用 ChatGPT 提效的案例，没给可复用的工具或方案，看看就行。（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
 </item>
@@ -31,8 +27,7 @@ Across recruiting, engineering, and operations, Oracle （OpenAI News）</descri
 <title>Screen readers can navigate timelines as lists</title>
 <link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
 <guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
-<description>Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…
-Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates （GitHub Changelog）</description>
+<description>无障碍改进，做前端可访问性的顺手升级，其他人不用管。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
 </item>
@@ -40,7 +35,7 @@ Screen readers can now navigate issue and pull request timelines as a list. When
 <title>【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1</title>
 <link>https://aihot.news/agent?tab=api</link>
 <guid isPermaLink="true">https://aihot.news/agent?tab=api</guid>
-<description>这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。（AIHOT）</description>
+<description>旧接口还有一年多才停，但脚本早晚要改，趁现在迁移省得临期踩坑。（AIHOT）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 02:00:00 +0000</pubDate>
 </item>
@@ -48,11 +43,7 @@ Screen readers can now navigate issue and pull request timelines as a list. When
 <title>Pollo AI turns creative ideas into campaigns with OpenAI</title>
 <link>https://openai.com/index/pollo-ai</link>
 <guid isPermaLink="true">https://openai.com/index/pollo-ai</guid>
-<description>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
-With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
-With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.
-October 8, 2026
-With GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas in（OpenAI News）</description>
+<description>OpenAI 客户案例软文，没接口没价格，看完也不知道怎么接。（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
@@ -60,9 +51,7 @@ With GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators tu
 <title>Draft pull requests count toward pull request limits</title>
 <link>https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</link>
 <guid isPermaLink="true">https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</guid>
-<description>Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,…
-Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests.
-Previously, draft pull requests didn’t count toward a user’s limit. That meant someone could open any n（GitHub Changelog）</description>
+<description>草稿 PR 也占配额了，CI 里自动开草稿的脚本得改，否则容易撞上限。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 14:25:53 +0000</pubDate>
 </item>
@@ -70,7 +59,7 @@ Previously, draft pull requests didn’t count toward a user’s limit. That mea
 <title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
 <link>https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</link>
 <guid isPermaLink="true">https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</guid>
-<description>Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。（The Decoder：AI News（RSS））</description>
+<description>用 AgentCore 的赶紧查权限隔离，提示词注入能横向拿下整个账户。（The Decoder：AI News（RSS））</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 13:01:01 +0000</pubDate>
 </item>
@@ -78,7 +67,7 @@ Previously, draft pull requests didn’t count toward a user’s limit. That mea
 <title>Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2</title>
 <link>https://x.com/ArtificialAnlys/status/2108236656700768310</link>
 <guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2108236656700768310</guid>
-<description>Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。（X：Artificial Analysis (@ArtificialAnlys)）</description>
+<description>图像模型价格砍半还进前四，做图生图/编辑的可以换供应商省成本了。（X：Artificial Analysis (@ArtificialAnlys)）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 16:42:42 +0000</pubDate>
 </item>
@@ -86,10 +75,7 @@ Previously, draft pull requests didn’t count toward a user’s limit. That mea
 <title>阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假</title>
 <link>https://www.aibase.com/news/31479</link>
 <guid isPermaLink="true">https://www.aibase.com/news/31479</guid>
-<description>Step Terminal brought the concept of "the phone does the work itself" to the forefront. It announced that its first large model-native intelligent agent phone,
-Step Terminal brought the concept of "the phone does the work itself" to the forefront. It announced that its first large model-native intelligent agent phone,
-Step Terminal brought the concept of "the phone does the work itself" to the forefront. It announced that its first large model-native intelligent agent phone,
-Explore AI Frontiers（AIbase）</description>
+<description>手机发布会不是给开发者看的，等它开放API或SDK再谈。（AIbase）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 17:47:58 +0000</pubDate>
 </item>
@@ -97,7 +83,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM</title>
 <link>https://github.com/pingdotgg/ts-rust</link>
 <guid isPermaLink="true">https://github.com/pingdotgg/ts-rust</guid>
-<description>ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。（Hacker News：AI 热帖）</description>
+<description>LLM 移植的 TS 编译器，玩具阶段，别急着换掉 tsc，但值得 clone 看思路。（Hacker News：AI 热帖）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 17:20:58 +0000</pubDate>
 </item>
@@ -105,7 +91,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度 / We’re rolling out monthly Claude Platform API credits for Max and Team plans:</title>
 <link>https://x.com/ClaudeDevs/status/2107895957933408429</link>
 <guid isPermaLink="true">https://x.com/ClaudeDevs/status/2107895957933408429</guid>
-<description>Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。（X：Claude Devs (@ClaudeDevs)）</description>
+<description>订阅套餐白送 API 额度，Claude Max 用户跑脚本能省一笔，值得查下额度规则。（X：Claude Devs (@ClaudeDevs)）</description>
 <category>官方更新</category>
 <pubDate>Wed, 07 Oct 2026 18:08:53 +0000</pubDate>
 </item>
@@ -113,7 +99,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题</title>
 <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.293</link>
 <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.293</guid>
-<description>Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。（Claude Code：GitHub Releases（RSS））</description>
+<description>Claude Code 用户直接升级，新 Haiku 5.5 更快更省，顺手修了一堆 bug。（Claude Code：GitHub Releases（RSS））</description>
 <category>官方更新</category>
 <pubDate>Wed, 07 Oct 2026 18:10:20 +0000</pubDate>
 </item>
@@ -121,7 +107,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!</title>
 <link>https://x.com/arena/status/2108243026741248348</link>
 <guid isPermaLink="true">https://x.com/arena/status/2108243026741248348</guid>
-<description>Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。（X：Arena (@arena)）</description>
+<description>融资估值跟写代码没关系，Alignment Index 没细节，等有 API 再说。（X：Arena (@arena)）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 17:08:01 +0000</pubDate>
 </item>
@@ -129,7 +115,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks</title>
 <link>https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</link>
 <guid isPermaLink="true">https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</guid>
-<description>Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。（The Decoder：AI News（RSS））</description>
+<description>AI 攻击工具已实战化，做安全的该看看攻击链细节，普通开发者先管好凭证。（The Decoder：AI News（RSS））</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 09:24:17 +0000</pubDate>
 </item>
@@ -137,7 +123,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap</title>
 <link>https://www.youtube.com/shorts/n9WfoNW2XnE</link>
 <guid isPermaLink="true">https://www.youtube.com/shorts/n9WfoNW2XnE</guid>
-<description>Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。（Claude：YouTube（RSS））</description>
+<description>模型上线和产品合并都算实事，但只是回顾视频，具体API和价格得去官网核对。（Claude：YouTube（RSS））</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 15:53:13 +0000</pubDate>
 </item>
@@ -145,11 +131,7 @@ Explore AI Frontiers（AIbase）</description>
 <title>OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations</title>
 <link>https://openai.com/index/disrupting-ai-enabled-false-front-operations</link>
 <guid isPermaLink="true">https://openai.com/index/disrupting-ai-enabled-false-front-operations</guid>
-<description>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
-OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
-OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.
-October 8, 2026
-Over the past two and a half years, we’ve reported on many of the ways（OpenAI News）</description>
+<description>封号通报，跟写代码没关系，知道平台在查滥用就行。（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
 </item>
@@ -157,7 +139,7 @@ Over the past two and a half years, we’ve reported on many of the ways（OpenA
 <title>Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations</title>
 <link>https://claude.dev/blog/building-effective-agent-automations</link>
 <guid isPermaLink="true">https://claude.dev/blog/building-effective-agent-automations</guid>
-<description>Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。（Anthropic：Claude.dev 开发者博客（RSS））</description>
+<description>官方定时 Agent 实践指南，做自动化的可以直接抄架构，省踩坑时间。（Anthropic：Claude.dev 开发者博客（RSS））</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
@@ -165,7 +147,7 @@ Over the past two and a half years, we’ve reported on many of the ways（OpenA
 <title>Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?</title>
 <link>https://x.com/thsottiaux/status/2108040921044639779</link>
 <guid isPermaLink="true">https://x.com/thsottiaux/status/2108040921044639779</guid>
-<description>作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。（X：Tibo (@thsottiaux)）</description>
+<description>用户数新高和额度到账，跟你的代码没关系，知道就行。（X：Tibo (@thsottiaux)）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 03:44:55 +0000</pubDate>
 </item>
@@ -173,8 +155,7 @@ Over the past two and a half years, we’ve reported on many of the ways（OpenA
 <title>Claude Haiku 5.5 in GitHub Copilot</title>
 <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
 <guid isPermaLink="true">https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</guid>
-<description>Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early…
-Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks. In early testing, Haiku 5.5 matched Claude Sonnet 5 on many coding tasks while using significantly fewer（GitHub Changelog）</description>
+<description>Copilot 里多一个便宜快的模型可选，写补全和小任务今天就能切过去试。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
 </item>
@@ -182,10 +163,7 @@ Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally avail
 <title>腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理</title>
 <link>https://www.aibase.com/news/31478</link>
 <guid isPermaLink="true">https://www.aibase.com/news/31478</guid>
-<description>Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files
-Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files
-Tencent's AI office tool WorkBuddy has officially launched its standalone file browser feature today. Users can directly call the browser to view and edit files
-Explore AI Fronti（AIbase）</description>
+<description>本地文件接 AI 处理，思路实用，但得看是否开放 API 和跨平台，否则只是腾讯生态内的小工具。（AIbase）</description>
 <category>行业动态</category>
 <pubDate>Thu, 08 Oct 2026 16:54:58 +0000</pubDate>
 </item>

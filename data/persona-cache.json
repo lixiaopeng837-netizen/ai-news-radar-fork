@@ -1,4 +1,161 @@
 {
   "version": 1,
-  "entries": {}
+  "entries": {
+    "story_6557dda4a6cd|pragmatic|0a5c5b24": {
+      "score": 92,
+      "review": "GPT-6 全量开放，今天就能上手试，先拿自己业务跑一轮对比再决定换不换。",
+      "title_hash": "a1ed6ccf",
+      "scored_at": "2026-10-08T18:00:43.542197Z"
+    },
+    "story_f913596b9697|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "Oracle 用 ChatGPT 提效的案例，没给可复用的工具或方案，看看就行。",
+      "title_hash": "70024c0e",
+      "scored_at": "2026-10-08T18:00:44.667844Z"
+    },
+    "story_68365110a7bb|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "无障碍改进，做前端可访问性的顺手升级，其他人不用管。",
+      "title_hash": "242fcab6",
+      "scored_at": "2026-10-08T18:00:45.661485Z"
+    },
+    "story_6d9b4cd327fa|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "旧接口还有一年多才停，但脚本早晚要改，趁现在迁移省得临期踩坑。",
+      "title_hash": "0737e164",
+      "scored_at": "2026-10-08T18:00:46.656860Z"
+    },
+    "story_e323adeab1da|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "OpenAI 客户案例软文，没接口没价格，看完也不知道怎么接。",
+      "title_hash": "70d62934",
+      "scored_at": "2026-10-08T18:00:47.799673Z"
+    },
+    "story_8cec8cc46a95|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "草稿 PR 也占配额了，CI 里自动开草稿的脚本得改，否则容易撞上限。",
+      "title_hash": "cbe292d3",
+      "scored_at": "2026-10-08T18:00:49.096287Z"
+    },
+    "story_e42c7cb753df|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "用 AgentCore 的赶紧查权限隔离，提示词注入能横向拿下整个账户。",
+      "title_hash": "6ca82d53",
+      "scored_at": "2026-10-08T18:00:50.187364Z"
+    },
+    "story_9d420c28c726|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "图像模型价格砍半还进前四，做图生图/编辑的可以换供应商省成本了。",
+      "title_hash": "5380835a",
+      "scored_at": "2026-10-08T18:00:51.105136Z"
+    },
+    "story_67b66df75035|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "手机发布会不是给开发者看的，等它开放API或SDK再谈。",
+      "title_hash": "51f4c34e",
+      "scored_at": "2026-10-08T18:00:52.197638Z"
+    },
+    "story_aab4210bc456|pragmatic|0a5c5b24": {
+      "score": 62,
+      "review": "LLM 移植的 TS 编译器，玩具阶段，别急着换掉 tsc，但值得 clone 看思路。",
+      "title_hash": "85029b89",
+      "scored_at": "2026-10-08T18:00:53.185417Z"
+    },
+    "story_d018af5dc3ed|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "订阅套餐白送 API 额度，Claude Max 用户跑脚本能省一笔，值得查下额度规则。",
+      "title_hash": "653dd40a",
+      "scored_at": "2026-10-08T18:00:54.088607Z"
+    },
+    "story_cb02882597ae|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "Claude Code 用户直接升级，新 Haiku 5.5 更快更省，顺手修了一堆 bug。",
+      "title_hash": "2c7b7a88",
+      "scored_at": "2026-10-08T18:00:55.185928Z"
+    },
+    "story_d2113055d2ba|pragmatic|0a5c5b24": {
+      "score": 22,
+      "review": "融资估值跟写代码没关系，Alignment Index 没细节，等有 API 再说。",
+      "title_hash": "a3e8d887",
+      "scored_at": "2026-10-08T18:00:56.284308Z"
+    },
+    "story_8b891e5bed56|pragmatic|0a5c5b24": {
+      "score": 55,
+      "review": "AI 攻击工具已实战化，做安全的该看看攻击链细节，普通开发者先管好凭证。",
+      "title_hash": "8ab67abe",
+      "scored_at": "2026-10-08T18:00:57.386950Z"
+    },
+    "story_6550b85414dd|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "模型上线和产品合并都算实事，但只是回顾视频，具体API和价格得去官网核对。",
+      "title_hash": "32b5c00b",
+      "scored_at": "2026-10-08T18:00:58.461381Z"
+    },
+    "story_610b177702ad|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "封号通报，跟写代码没关系，知道平台在查滥用就行。",
+      "title_hash": "b64756ae",
+      "scored_at": "2026-10-08T18:00:59.590614Z"
+    },
+    "story_69693d25de16|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "官方定时 Agent 实践指南，做自动化的可以直接抄架构，省踩坑时间。",
+      "title_hash": "8513cae5",
+      "scored_at": "2026-10-08T18:01:00.511207Z"
+    },
+    "story_77071f8577b9|pragmatic|0a5c5b24": {
+      "score": 42,
+      "review": "用户数新高和额度到账，跟你的代码没关系，知道就行。",
+      "title_hash": "460be3ad",
+      "scored_at": "2026-10-08T18:01:01.414752Z"
+    },
+    "story_7656d3b30e51|pragmatic|0a5c5b24": {
+      "score": 82,
+      "review": "Copilot 里多一个便宜快的模型可选，写补全和小任务今天就能切过去试。",
+      "title_hash": "ba747edc",
+      "scored_at": "2026-10-08T18:01:02.299767Z"
+    },
+    "story_78a725ddd1ec|pragmatic|0a5c5b24": {
+      "score": 62,
+      "review": "本地文件接 AI 处理，思路实用，但得看是否开放 API 和跨平台，否则只是腾讯生态内的小工具。",
+      "title_hash": "ade53c47",
+      "scored_at": "2026-10-08T18:01:03.357266Z"
+    },
+    "story_6557dda4a6cd|cynic|f4237a62": {
+      "score": 58,
+      "review": "向全部用户开放这点是真的，但\"Intelligent UI\"没给评测数据，先别急着封神。",
+      "title_hash": "a1ed6ccf",
+      "scored_at": "2026-10-08T18:01:04.677438Z"
+    },
+    "story_6557dda4a6cd|paper-police|966065bf": {
+      "score": 38,
+      "review": "官方发布页加HN热议，但无论文、无代码、无第三方复现，只有宣称。",
+      "title_hash": "a1ed6ccf",
+      "scored_at": "2026-10-08T18:01:05.673013Z"
+    },
+    "story_7656d3b30e51|cynic|f4237a62": {
+      "score": 72,
+      "review": "版本号跳得比模型能力快，Haiku 5.5 的实测延迟和价格呢？",
+      "title_hash": "ba747edc",
+      "scored_at": "2026-10-08T18:01:06.863657Z"
+    },
+    "story_7656d3b30e51|paper-police|966065bf": {
+      "score": 30,
+      "review": "只有官方更新公告，无论文、无代码、无第三方评测，证据不足。",
+      "title_hash": "ba747edc",
+      "scored_at": "2026-10-08T18:01:07.885815Z"
+    },
+    "story_9d420c28c726|cynic|f4237a62": {
+      "score": 72,
+      "review": "第四名配半价确实实在，但两榜都没登顶，别急着喊王。",
+      "title_hash": "5380835a",
+      "scored_at": "2026-10-08T18:01:09.032548Z"
+    },
+    "story_9d420c28c726|paper-police|966065bf": {
+      "score": 42,
+      "review": "第三方榜单排名和价格有据，但无论文无开源，评测细节不可复现。",
+      "title_hash": "5380835a",
+      "scored_at": "2026-10-08T18:01:09.959043Z"
+    }
+  }
 }

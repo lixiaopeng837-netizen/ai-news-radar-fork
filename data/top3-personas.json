@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:50:24.512391Z",
+  "generated_at": "2026-10-08T18:01:09.959103Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -15,5 +15,66 @@
       "name": "实用派"
     }
   ],
-  "items": []
+  "items": [
+    {
+      "story_id": "story_6557dda4a6cd",
+      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI / GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 58,
+          "review": "向全部用户开放这点是真的，但\"Intelligent UI\"没给评测数据，先别急着封神。"
+        },
+        "paper-police": {
+          "score": 38,
+          "review": "官方发布页加HN热议，但无论文、无代码、无第三方复现，只有宣称。"
+        },
+        "pragmatic": {
+          "score": 92,
+          "review": "GPT-6 全量开放，今天就能上手试，先拿自己业务跑一轮对比再决定换不换。"
+        }
+      }
+    },
+    {
+      "story_id": "story_7656d3b30e51",
+      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "版本号跳得比模型能力快，Haiku 5.5 的实测延迟和价格呢？"
+        },
+        "paper-police": {
+          "score": 30,
+          "review": "只有官方更新公告，无论文、无代码、无第三方评测，证据不足。"
+        },
+        "pragmatic": {
+          "score": 82,
+          "review": "Copilot 里多一个便宜快的模型可选，写补全和小任务今天就能切过去试。"
+        }
+      }
+    },
+    {
+      "story_id": "story_9d420c28c726",
+      "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+      "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "第四名配半价确实实在，但两榜都没登顶，别急着喊王。"
+        },
+        "paper-police": {
+          "score": 42,
+          "review": "第三方榜单排名和价格有据，但无论文无开源，评测细节不可复现。"
+        },
+        "pragmatic": {
+          "score": 82,
+          "review": "图像模型价格砍半还进前四，做图生图/编辑的可以换供应商省成本了。"
+        }
+      }
+    }
+  ]
 }
