@@ -5,21 +5,21 @@
 <link>https://news.learnprompt.pro</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 08 Oct 2026 18:20:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 08 Oct 2026 18:44:21 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://news.learnprompt.pro/data/feed.xml"/>
 <item>
-<title>Screen readers can navigate timelines as lists</title>
+<title>屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists</title>
 <link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
 <guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
-<description>无障碍改进，做前端可访问性的顺手升级，其他人不用管。（GitHub Changelog）</description>
+<description>无障碍改进，做前端可顺手对齐语义标签，其余人无需行动。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
 </item>
 <item>
-<title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
+<title>Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex</title>
 <link>https://openai.com/index/oracle</link>
 <guid isPermaLink="true">https://openai.com/index/oracle</guid>
-<description>Oracle 用 ChatGPT 提效的案例，没给可复用的工具或方案，看看就行。（OpenAI News）</description>
+<description>客户案例软文，没给具体用法和配置，学不到能抄的东西。（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
 </item>
@@ -32,36 +32,36 @@
 <pubDate>Thu, 08 Oct 2026 02:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Pollo AI turns creative ideas into campaigns with OpenAI</title>
+<title>Pollo AI 携手 OpenAI，把创意灵感变成 campaign / Pollo AI turns creative ideas into campaigns with OpenAI</title>
 <link>https://openai.com/index/pollo-ai</link>
 <guid isPermaLink="true">https://openai.com/index/pollo-ai</guid>
-<description>OpenAI 客户案例软文，没接口没价格，看完也不知道怎么接。（OpenAI News）</description>
+<description>OpenAI 客户案例软文，没 API 没价格，看完也动不了手。（OpenAI News）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Draft pull requests count toward pull request limits</title>
+<title>草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits</title>
 <link>https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</link>
 <guid isPermaLink="true">https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</guid>
-<description>草稿 PR 也占配额了，CI 里自动开草稿的脚本得改，否则容易撞上限。（GitHub Changelog）</description>
+<description>草稿PR现在占配额，自动化脚本狂开草稿的可能被限流，检查下你的CI流程。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 14:25:53 +0000</pubDate>
 </item>
 <item>
-<title>GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work</title>
+<title>GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work</title>
 <link>https://developers.openai.com/codex/changelog</link>
 <guid isPermaLink="true">https://developers.openai.com/codex/changelog</guid>
-<description>Codex 里能直接切新模型，写代码的先试跑一轮看提速多少。（OpenAI Codex Changelog）</description>
+<description>Codex 里能直接换新模型提速，先拿小任务试延迟和额度再全量切。（OpenAI Codex Changelog）</description>
 <category>官方更新</category>
 <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
-<link>https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</link>
-<guid isPermaLink="true">https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</guid>
-<description>用 AgentCore 的赶紧查权限隔离，提示词注入能横向拿下整个账户。（The Decoder：AI News（RSS））</description>
+<title>部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域 / Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field</title>
+<link>https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field</link>
+<guid isPermaLink="true">https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field</guid>
+<description>学术圈口水战，不改变你今天写代码，等真有工具或政策再说。（The Decoder：AI News（RSS））</description>
 <category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 13:01:01 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 18:17:07 +0000</pubDate>
 </item>
 <item>
 <title>Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2</title>
@@ -104,12 +104,12 @@
 <pubDate>Thu, 08 Oct 2026 17:08:01 +0000</pubDate>
 </item>
 <item>
-<title>Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks</title>
-<link>https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</link>
-<guid isPermaLink="true">https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks</guid>
-<description>AI 攻击工具已实战化，做安全的该看看攻击链细节，普通开发者先管好凭证。（The Decoder：AI News（RSS））</description>
+<title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
+<link>https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</link>
+<guid isPermaLink="true">https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found</guid>
+<description>用 AgentCore 的赶紧查权限隔离，提示词注入能横向拿下整个账户。（The Decoder：AI News（RSS））</description>
 <category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 09:24:17 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 13:01:01 +0000</pubDate>
 </item>
 <item>
 <title>Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap</title>
@@ -144,10 +144,10 @@
 <pubDate>Thu, 08 Oct 2026 03:44:55 +0000</pubDate>
 </item>
 <item>
-<title>Claude Haiku 5.5 in GitHub Copilot</title>
+<title>GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot</title>
 <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
 <guid isPermaLink="true">https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</guid>
-<description>Copilot 里多一个便宜快的模型可选，写补全和小任务今天就能切过去试。（GitHub Changelog）</description>
+<description>Copilot 里多一个便宜快的模型可选，写补全和跑小任务能省额度，直接切来试。（GitHub Changelog）</description>
 <category>官方更新</category>
 <pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
 </item>

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T18:20:00.207152Z",
+  "generated_at": "2026-10-08T18:44:21.004859Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
       "story_id": "story_68365110a7bb",
-      "title": "Screen readers can navigate timelines as lists",
+      "title": "屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists",
       "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
       "primary_url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
       "source": "GitHub Changelog",
@@ -13,8 +13,8 @@
       "sources": [
         {
           "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
-          "title": "Screen readers can navigate timelines as lists",
-          "title_zh": null,
+          "title": "屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists",
+          "title_zh": "屏幕阅读器可将时间线作为列表导航",
           "title_en": "Screen readers can navigate timelines as lists",
           "title_original": "Screen readers can navigate timelines as lists",
           "summary": null,
@@ -33,8 +33,8 @@
       "items": [
         {
           "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
-          "title": "Screen readers can navigate timelines as lists",
-          "title_zh": null,
+          "title": "屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists",
+          "title_zh": "屏幕阅读器可将时间线作为列表导航",
           "title_en": "Screen readers can navigate timelines as lists",
           "title_original": "Screen readers can navigate timelines as lists",
           "summary": null,
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8381,
-      "importance": 0.8381,
-      "importance_score": 0.8381,
+      "score": 0.8371,
+      "importance": 0.8371,
+      "importance_score": 0.8371,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9671,
+        "recency": 0.9614,
         "story_heat": 0.0
       },
       "category": "official",
@@ -69,8 +69,8 @@
       "latest_at": "2026-10-08T16:00:56Z",
       "primary_item": {
         "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
-        "title": "Screen readers can navigate timelines as lists",
-        "title_zh": null,
+        "title": "屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists",
+        "title_zh": "屏幕阅读器可将时间线作为列表导航",
         "title_en": "Screen readers can navigate timelines as lists",
         "title_original": "Screen readers can navigate timelines as lists",
         "summary": null,
@@ -80,17 +80,17 @@
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "无障碍改进，做前端可访问性的顺手升级，其他人不用管。",
+      "persona_score": 42,
+      "persona_review": "无障碍改进，做前端可顺手对齐语义标签，其余人无需行动。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
       "story_id": "story_f913596b9697",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "title": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
       "url": "https://openai.com/index/oracle",
       "primary_url": "https://openai.com/index/oracle",
       "source": "OpenAI News",
@@ -98,8 +98,8 @@
       "sources": [
         {
           "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
-          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-          "title_zh": null,
+          "title": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_zh": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟",
           "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "summary": null,
@@ -118,8 +118,8 @@
       "items": [
         {
           "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
-          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-          "title_zh": null,
+          "title": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_zh": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟",
           "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
           "summary": null,
@@ -133,15 +133,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.838,
-      "importance": 0.838,
-      "importance_score": 0.838,
+      "score": 0.837,
+      "importance": 0.837,
+      "importance_score": 0.837,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9669,
+        "recency": 0.9612,
         "story_heat": 0.0
       },
       "category": "official",
@@ -154,8 +154,8 @@
       "latest_at": "2026-10-08T16:00:00Z",
       "primary_item": {
         "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
-        "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-        "title_zh": null,
+        "title": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "title_zh": "Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟",
         "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
         "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
         "summary": null,
@@ -166,11 +166,11 @@
       },
       "persona_id": "pragmatic",
       "persona_score": 45,
-      "persona_review": "Oracle 用 ChatGPT 提效的案例，没给可复用的工具或方案，看看就行。",
+      "persona_review": "客户案例软文，没给具体用法和配置，学不到能抄的东西。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -218,15 +218,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8138,
-      "importance": 0.8138,
-      "importance_score": 0.8138,
+      "score": 0.8129,
+      "importance": 0.8129,
+      "importance_score": 0.8129,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 1.0,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7899,
+        "recency": 0.7853,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -254,12 +254,12 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
       "story_id": "story_e323adeab1da",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "title": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign / Pollo AI turns creative ideas into campaigns with OpenAI",
       "url": "https://openai.com/index/pollo-ai",
       "primary_url": "https://openai.com/index/pollo-ai",
       "source": "OpenAI News",
@@ -267,8 +267,8 @@
       "sources": [
         {
           "id": "e441138912907d022d550626c930aa4e578bbe9e",
-          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-          "title_zh": null,
+          "title": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign / Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_zh": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign",
           "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
           "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
           "summary": null,
@@ -287,8 +287,8 @@
       "items": [
         {
           "id": "e441138912907d022d550626c930aa4e578bbe9e",
-          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-          "title_zh": null,
+          "title": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign / Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_zh": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign",
           "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
           "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
           "summary": null,
@@ -302,15 +302,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8363,
-      "importance": 0.8363,
-      "importance_score": 0.8363,
+      "score": 0.8353,
+      "importance": 0.8353,
+      "importance_score": 0.8353,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9126,
+        "recency": 0.9073,
         "story_heat": 0.0
       },
       "category": "official",
@@ -323,8 +323,8 @@
       "latest_at": "2026-10-08T12:00:00Z",
       "primary_item": {
         "id": "e441138912907d022d550626c930aa4e578bbe9e",
-        "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-        "title_zh": null,
+        "title": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign / Pollo AI turns creative ideas into campaigns with OpenAI",
+        "title_zh": "Pollo AI 携手 OpenAI，把创意灵感变成 campaign",
         "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
         "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
         "summary": null,
@@ -334,17 +334,17 @@
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 35,
-      "persona_review": "OpenAI 客户案例软文，没接口没价格，看完也不知道怎么接。",
+      "persona_score": 30,
+      "persona_review": "OpenAI 客户案例软文，没 API 没价格，看完也动不了手。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
       "story_id": "story_8cec8cc46a95",
-      "title": "Draft pull requests count toward pull request limits",
+      "title": "草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits",
       "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
       "primary_url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
       "source": "GitHub Changelog",
@@ -352,8 +352,8 @@
       "sources": [
         {
           "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
-          "title": "Draft pull requests count toward pull request limits",
-          "title_zh": null,
+          "title": "草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits",
+          "title_zh": "草稿 Pull Request 也计入 Pull Request 数量上限",
           "title_en": "Draft pull requests count toward pull request limits",
           "title_original": "Draft pull requests count toward pull request limits",
           "summary": null,
@@ -372,8 +372,8 @@
       "items": [
         {
           "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
-          "title": "Draft pull requests count toward pull request limits",
-          "title_zh": null,
+          "title": "草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits",
+          "title_zh": "草稿 Pull Request 也计入 Pull Request 数量上限",
           "title_en": "Draft pull requests count toward pull request limits",
           "title_original": "Draft pull requests count toward pull request limits",
           "summary": null,
@@ -387,15 +387,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8341,
-      "importance": 0.8341,
-      "importance_score": 0.8341,
+      "score": 0.8331,
+      "importance": 0.8331,
+      "importance_score": 0.8331,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9452,
+        "recency": 0.9397,
         "story_heat": 0.0
       },
       "category": "official",
@@ -408,8 +408,8 @@
       "latest_at": "2026-10-08T14:25:53Z",
       "primary_item": {
         "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
-        "title": "Draft pull requests count toward pull request limits",
-        "title_zh": null,
+        "title": "草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits",
+        "title_zh": "草稿 Pull Request 也计入 Pull Request 数量上限",
         "title_en": "Draft pull requests count toward pull request limits",
         "title_original": "Draft pull requests count toward pull request limits",
         "summary": null,
@@ -419,17 +419,17 @@
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "草稿 PR 也占配额了，CI 里自动开草稿的脚本得改，否则容易撞上限。",
+      "persona_score": 55,
+      "persona_review": "草稿PR现在占配额，自动化脚本狂开草稿的可能被限流，检查下你的CI流程。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
       "story_id": "story_d783a04fd0f6",
-      "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+      "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
       "url": "https://developers.openai.com/codex/changelog",
       "primary_url": "https://developers.openai.com/codex/changelog",
       "source": "OpenAI Codex Changelog",
@@ -437,11 +437,11 @@
       "sources": [
         {
           "id": "ea853af1899fb409377ae777f6ac3a71ef793f5f",
-          "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-          "title_zh": null,
+          "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+          "title_zh": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快",
           "title_en": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
           "title_original": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nUltrafast mode speeds up token generation with GPT-6.1 Sol in Codex and\nChatGPT Work.\nUltrafast is available on Pro $500 and eligible Enterprise and Edu plans.\nEnterprise access is off by default; workspace owners must enable it.\nGPT-6.1 Sol Ultrafast supports inference residency in the United States and\nEurope (EEA + Switzerland).\nSee Ultrafast mode for",
+          "summary": null,
           "recommend_reason_zh": "这篇更新值得读：GPT-6.1 Sol Ultrafast 加速 Codex 与 ChatGPT Work 的 token 生成，Pro $500 可用，Enterprise 默认关闭。",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
@@ -457,11 +457,11 @@
       "items": [
         {
           "id": "ea853af1899fb409377ae777f6ac3a71ef793f5f",
-          "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-          "title_zh": null,
+          "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+          "title_zh": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快",
           "title_en": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
           "title_original": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-          "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nUltrafast mode speeds up token generation with GPT-6.1 Sol in Codex and\nChatGPT Work.\nUltrafast is available on Pro $500 and eligible Enterprise and Edu plans.\nEnterprise access is off by default; workspace owners must enable it.\nGPT-6.1 Sol Ultrafast supports inference residency in the United States and\nEurope (EEA + Switzerland).\nSee Ultrafast mode for",
+          "summary": null,
           "recommend_reason_zh": "这篇更新值得读：GPT-6.1 Sol Ultrafast 加速 Codex 与 ChatGPT Work 的 token 生成，Pro $500 可用，Enterprise 默认关闭。",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
@@ -472,15 +472,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8021,
-      "importance": 0.8021,
-      "importance_score": 0.8021,
+      "score": 0.8013,
+      "importance": 0.8013,
+      "importance_score": 0.8013,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7674,
+        "recency": 0.7629,
         "story_heat": 0.0
       },
       "category": "official",
@@ -493,46 +493,46 @@
       "latest_at": "2026-10-08T00:00:00Z",
       "primary_item": {
         "id": "ea853af1899fb409377ae777f6ac3a71ef793f5f",
-        "title": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-        "title_zh": null,
+        "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+        "title_zh": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快",
         "title_en": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
         "title_original": "GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nUltrafast mode speeds up token generation with GPT-6.1 Sol in Codex and\nChatGPT Work.\nUltrafast is available on Pro $500 and eligible Enterprise and Edu plans.\nEnterprise access is off by default; workspace owners must enable it.\nGPT-6.1 Sol Ultrafast supports inference residency in the United States and\nEurope (EEA + Switzerland).\nSee Ultrafast mode for",
+        "summary": null,
         "recommend_reason_zh": "这篇更新值得读：GPT-6.1 Sol Ultrafast 加速 Codex 与 ChatGPT Work 的 token 生成，Pro $500 可用，Enterprise 默认关闭。",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "Codex 里能直接切新模型，写代码的先试跑一轮看提速多少。",
+      "persona_score": 82,
+      "persona_review": "Codex 里能直接换新模型提速，先拿小任务试延迟和额度再全量切。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
-      "story_id": "story_e42c7cb753df",
-      "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
-      "primary_url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "story_id": "story_2703d8e455a1",
+      "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域 / Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
+      "primary_url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
       "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
-          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-          "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
-          "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-          "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-          "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
-          "recommend_reason_zh": null,
-          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+          "id": "9a6c1abc58143cba093d6c4646fff1acfcfe9a66",
+          "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域 / Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+          "title_zh": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+          "title_en": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+          "title_original": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+          "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+          "recommend_reason_zh": "OpenAI一次性发布700多篇AI生成数学手稿，次日因符号错误撤回3篇，AHM呼吁抵制，Terence Tao警告批量“收割”开放问题会让数学分支失去肥力。",
+          "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-08T13:01:01Z"
+          "published_at": "2026-10-08T18:17:07Z"
         }
       ],
       "source_count": 1,
@@ -541,31 +541,31 @@
       ],
       "items": [
         {
-          "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
-          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-          "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
-          "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-          "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-          "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
-          "recommend_reason_zh": null,
-          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+          "id": "9a6c1abc58143cba093d6c4646fff1acfcfe9a66",
+          "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域 / Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+          "title_zh": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+          "title_en": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+          "title_original": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+          "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+          "recommend_reason_zh": "OpenAI一次性发布700多篇AI生成数学手稿，次日因符号错误撤回3篇，AHM呼吁抵制，Terence Tao警告批量“收割”开放问题会让数学分支失去肥力。",
+          "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-08T13:01:01Z"
+          "published_at": "2026-10-08T18:17:07Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7783,
-      "importance": 0.7783,
-      "importance_score": 0.7783,
+      "score": 0.7934,
+      "importance": 0.7934,
+      "importance_score": 0.7934,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.8,
+        "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9261,
+        "recency": 0.9935,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -573,27 +573,27 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-08T13:01:01Z",
-      "latest_at": "2026-10-08T13:01:01Z",
+      "earliest_at": "2026-10-08T18:17:07Z",
+      "latest_at": "2026-10-08T18:17:07Z",
       "primary_item": {
-        "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
-        "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-        "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
-        "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-        "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-        "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
-        "recommend_reason_zh": null,
-        "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+        "id": "9a6c1abc58143cba093d6c4646fff1acfcfe9a66",
+        "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域 / Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+        "title_zh": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+        "title_en": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+        "title_original": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+        "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+        "recommend_reason_zh": "OpenAI一次性发布700多篇AI生成数学手稿，次日因符号错误撤回3篇，AHM呼吁抵制，Terence Tao警告批量“收割”开放问题会让数学分支失去肥力。",
+        "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "用 AgentCore 的赶紧查权限隔离，提示词注入能横向拿下整个账户。",
+      "persona_score": 35,
+      "persona_review": "学术圈口水战，不改变你今天写代码，等真有工具或政策再说。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -641,15 +641,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7724,
-      "importance": 0.7724,
-      "importance_score": 0.7724,
+      "score": 0.7714,
+      "importance": 0.7714,
+      "importance_score": 0.7714,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9769,
+        "recency": 0.9711,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -677,7 +677,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -725,15 +725,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7662,
-      "importance": 0.7662,
-      "importance_score": 0.7662,
+      "score": 0.7652,
+      "importance": 0.7652,
+      "importance_score": 0.7652,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9923,
+        "recency": 0.9865,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -761,7 +761,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -838,15 +838,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7643,
-      "importance": 0.7643,
-      "importance_score": 0.7643,
+      "score": 0.7635,
+      "importance": 0.7635,
+      "importance_score": 0.7635,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.76,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7759,
+        "recency": 0.7714,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -875,7 +875,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -923,15 +923,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7561,
-      "importance": 0.7561,
-      "importance_score": 0.7561,
+      "score": 0.7553,
+      "importance": 0.7553,
+      "importance_score": 0.7553,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.7674,
+        "recency": 0.7629,
         "story_heat": 0.0
       },
       "category": "official",
@@ -959,7 +959,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1007,15 +1007,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
+      "score": 0.7485,
+      "importance": 0.7485,
+      "importance_score": 0.7485,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9828,
+        "recency": 0.9771,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1042,30 +1042,30 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
-      "story_id": "story_8b891e5bed56",
-      "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-      "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
-      "primary_url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+      "story_id": "story_e42c7cb753df",
+      "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "primary_url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
       "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "96cef21a5d9693679c7089b34bd71f25214088e0",
-          "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-          "title_zh": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
-          "title_en": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-          "title_original": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-          "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
-          "recommend_reason_zh": "CrowdStrike称，疑似说中文攻击者用ARTEX与DeepSeek、GLM-5.3，入侵多家韩国银行，仅在Shinhan Bank窃取逾2.5万条客户记录。",
-          "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+          "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+          "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-08T09:24:17Z"
+          "published_at": "2026-10-08T13:01:01Z"
         }
       ],
       "source_count": 1,
@@ -1074,31 +1074,31 @@
       ],
       "items": [
         {
-          "id": "96cef21a5d9693679c7089b34bd71f25214088e0",
-          "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-          "title_zh": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
-          "title_en": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-          "title_original": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-          "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
-          "recommend_reason_zh": "CrowdStrike称，疑似说中文攻击者用ARTEX与DeepSeek、GLM-5.3，入侵多家韩国银行，仅在Shinhan Bank窃取逾2.5万条客户记录。",
-          "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+          "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+          "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+          "recommend_reason_zh": null,
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
           "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-10-08T09:24:17Z"
+          "published_at": "2026-10-08T13:01:01Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7758,
-      "importance": 0.7758,
-      "importance_score": 0.7758,
+      "score": 0.7773,
+      "importance": 0.7773,
+      "importance_score": 0.7773,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.82,
+        "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.879,
+        "recency": 0.9207,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1106,27 +1106,27 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-08T09:24:17Z",
-      "latest_at": "2026-10-08T09:24:17Z",
+      "earliest_at": "2026-10-08T13:01:01Z",
+      "latest_at": "2026-10-08T13:01:01Z",
       "primary_item": {
-        "id": "96cef21a5d9693679c7089b34bd71f25214088e0",
-        "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行 / AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-        "title_zh": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
-        "title_en": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-        "title_original": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
-        "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
-        "recommend_reason_zh": "CrowdStrike称，疑似说中文攻击者用ARTEX与DeepSeek、GLM-5.3，入侵多家韩国银行，仅在Shinhan Bank窃取逾2.5万条客户记录。",
-        "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks",
+        "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+        "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+        "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+        "recommend_reason_zh": null,
+        "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
         "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "AI 攻击工具已实战化，做安全的该看看攻击链细节，普通开发者先管好凭证。",
+      "persona_score": 72,
+      "persona_review": "用 AgentCore 的赶紧查权限隔离，提示词注入能横向拿下整个账户。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1174,15 +1174,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7434,
-      "importance": 0.7434,
-      "importance_score": 0.7434,
+      "score": 0.7423,
+      "importance": 0.7423,
+      "importance_score": 0.7423,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9653,
+        "recency": 0.9596,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1209,7 +1209,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1257,15 +1257,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8021,
-      "importance": 0.8021,
-      "importance_score": 0.8021,
+      "score": 0.8013,
+      "importance": 0.8013,
+      "importance_score": 0.8013,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7674,
+        "recency": 0.7629,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1294,7 +1294,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1342,15 +1342,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7399,
-      "importance": 0.7399,
-      "importance_score": 0.7399,
+      "score": 0.7389,
+      "importance": 0.7389,
+      "importance_score": 0.7389,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.68,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9126,
+        "recency": 0.9073,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1377,7 +1377,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1425,15 +1425,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7394,
-      "importance": 0.7394,
-      "importance_score": 0.7394,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.74,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8101,
+        "recency": 0.8054,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1460,12 +1460,12 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
       "story_id": "story_7656d3b30e51",
-      "title": "Claude Haiku 5.5 in GitHub Copilot",
+      "title": "GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot",
       "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
       "primary_url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
       "source": "GitHub Changelog",
@@ -1473,8 +1473,8 @@
       "sources": [
         {
           "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
-          "title": "Claude Haiku 5.5 in GitHub Copilot",
-          "title_zh": null,
+          "title": "GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot",
+          "title_zh": "GitHub Copilot 中的Claude俳句 5.5",
           "title_en": "Claude Haiku 5.5 in GitHub Copilot",
           "title_original": "Claude Haiku 5.5 in GitHub Copilot",
           "summary": null,
@@ -1493,8 +1493,8 @@
       "items": [
         {
           "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
-          "title": "Claude Haiku 5.5 in GitHub Copilot",
-          "title_zh": null,
+          "title": "GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot",
+          "title_zh": "GitHub Copilot 中的Claude俳句 5.5",
           "title_en": "Claude Haiku 5.5 in GitHub Copilot",
           "title_original": "Claude Haiku 5.5 in GitHub Copilot",
           "summary": null,
@@ -1508,15 +1508,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7948,
-      "importance": 0.7948,
-      "importance_score": 0.7948,
+      "score": 0.794,
+      "importance": 0.794,
+      "importance_score": 0.794,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7265,
+        "recency": 0.7222,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1529,8 +1529,8 @@
       "latest_at": "2026-10-07T20:12:18Z",
       "primary_item": {
         "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
-        "title": "Claude Haiku 5.5 in GitHub Copilot",
-        "title_zh": null,
+        "title": "GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot",
+        "title_zh": "GitHub Copilot 中的Claude俳句 5.5",
         "title_en": "Claude Haiku 5.5 in GitHub Copilot",
         "title_original": "Claude Haiku 5.5 in GitHub Copilot",
         "summary": null,
@@ -1541,11 +1541,11 @@
       },
       "persona_id": "pragmatic",
       "persona_score": 82,
-      "persona_review": "Copilot 里多一个便宜快的模型可选，写补全和小任务今天就能切过去试。",
+      "persona_review": "Copilot 里多一个便宜快的模型可选，写补全和跑小任务能省额度，直接切来试。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1593,15 +1593,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.764,
-      "importance": 0.764,
-      "importance_score": 0.764,
+      "score": 0.7629,
+      "importance": 0.7629,
+      "importance_score": 0.7629,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9797,
+        "recency": 0.974,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1629,7 +1629,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     },
     {
@@ -1677,15 +1677,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7295,
-      "importance": 0.7295,
-      "importance_score": 0.7295,
+      "score": 0.7285,
+      "importance": 0.7285,
+      "importance_score": 0.7285,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.61,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9718,
+        "recency": 0.9661,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1712,7 +1712,7 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-10-08T18:24:17.103179Z"
+        "scored_at": "2026-10-08T18:57:29.967406Z"
       }
     }
   ]

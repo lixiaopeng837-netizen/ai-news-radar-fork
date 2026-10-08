@@ -9,15 +9,15 @@
     },
     "story_f913596b9697|pragmatic|0a5c5b24": {
       "score": 45,
-      "review": "Oracle 用 ChatGPT 提效的案例，没给可复用的工具或方案，看看就行。",
-      "title_hash": "70024c0e",
-      "scored_at": "2026-10-08T18:00:44.667844Z"
+      "review": "客户案例软文，没给具体用法和配置，学不到能抄的东西。",
+      "title_hash": "15858b16",
+      "scored_at": "2026-10-08T18:57:31.706703Z"
     },
     "story_68365110a7bb|pragmatic|0a5c5b24": {
-      "score": 45,
-      "review": "无障碍改进，做前端可访问性的顺手升级，其他人不用管。",
-      "title_hash": "242fcab6",
-      "scored_at": "2026-10-08T18:00:45.661485Z"
+      "score": 42,
+      "review": "无障碍改进，做前端可顺手对齐语义标签，其余人无需行动。",
+      "title_hash": "5696a8b7",
+      "scored_at": "2026-10-08T18:57:30.777217Z"
     },
     "story_6d9b4cd327fa|pragmatic|0a5c5b24": {
       "score": 72,
@@ -26,16 +26,16 @@
       "scored_at": "2026-10-08T18:00:46.656860Z"
     },
     "story_e323adeab1da|pragmatic|0a5c5b24": {
-      "score": 35,
-      "review": "OpenAI 客户案例软文，没接口没价格，看完也不知道怎么接。",
-      "title_hash": "70d62934",
-      "scored_at": "2026-10-08T18:00:47.799673Z"
+      "score": 30,
+      "review": "OpenAI 客户案例软文，没 API 没价格，看完也动不了手。",
+      "title_hash": "d0a644f9",
+      "scored_at": "2026-10-08T18:57:32.580325Z"
     },
     "story_8cec8cc46a95|pragmatic|0a5c5b24": {
-      "score": 72,
-      "review": "草稿 PR 也占配额了，CI 里自动开草稿的脚本得改，否则容易撞上限。",
-      "title_hash": "cbe292d3",
-      "scored_at": "2026-10-08T18:00:49.096287Z"
+      "score": 55,
+      "review": "草稿PR现在占配额，自动化脚本狂开草稿的可能被限流，检查下你的CI流程。",
+      "title_hash": "b7ec2dce",
+      "scored_at": "2026-10-08T18:57:33.885844Z"
     },
     "story_e42c7cb753df|pragmatic|0a5c5b24": {
       "score": 72,
@@ -111,9 +111,9 @@
     },
     "story_7656d3b30e51|pragmatic|0a5c5b24": {
       "score": 82,
-      "review": "Copilot 里多一个便宜快的模型可选，写补全和小任务今天就能切过去试。",
-      "title_hash": "ba747edc",
-      "scored_at": "2026-10-08T18:01:02.299767Z"
+      "review": "Copilot 里多一个便宜快的模型可选，写补全和跑小任务能省额度，直接切来试。",
+      "title_hash": "8eae180a",
+      "scored_at": "2026-10-08T18:57:37.167667Z"
     },
     "story_78a725ddd1ec|pragmatic|0a5c5b24": {
       "score": 62,
@@ -135,15 +135,15 @@
     },
     "story_7656d3b30e51|cynic|f4237a62": {
       "score": 72,
-      "review": "版本号跳得比模型能力快，Haiku 5.5 的实测延迟和价格呢？",
-      "title_hash": "ba747edc",
-      "scored_at": "2026-10-08T18:01:06.863657Z"
+      "review": "版本号从5跳到5.5，changelog却只字不提延迟和价格，这半代升级藏了多少水分？",
+      "title_hash": "8eae180a",
+      "scored_at": "2026-10-08T18:57:40.213018Z"
     },
     "story_7656d3b30e51|paper-police|966065bf": {
       "score": 30,
-      "review": "只有官方更新公告，无论文、无代码、无第三方评测，证据不足。",
-      "title_hash": "ba747edc",
-      "scored_at": "2026-10-08T18:01:07.885815Z"
+      "review": "官方changelog只说上线，无论文无代码无benchmark，性能数字一个没有。",
+      "title_hash": "8eae180a",
+      "scored_at": "2026-10-08T18:57:41.097319Z"
     },
     "story_9d420c28c726|cynic|f4237a62": {
       "score": 72,
@@ -158,10 +158,10 @@
       "scored_at": "2026-10-08T18:01:09.959043Z"
     },
     "story_d783a04fd0f6|pragmatic|0a5c5b24": {
-      "score": 88,
-      "review": "Codex 里能直接切新模型，写代码的先试跑一轮看提速多少。",
-      "title_hash": "95599a93",
-      "scored_at": "2026-10-08T18:24:18.301224Z"
+      "score": 82,
+      "review": "Codex 里能直接换新模型提速，先拿小任务试延迟和额度再全量切。",
+      "title_hash": "5881b85b",
+      "scored_at": "2026-10-08T18:57:34.891754Z"
     },
     "story_f2bdd4f1edba|pragmatic|0a5c5b24": {
       "score": 82,
@@ -176,16 +176,22 @@
       "scored_at": "2026-10-08T18:24:19.850477Z"
     },
     "story_d783a04fd0f6|cynic|f4237a62": {
-      "score": 58,
-      "review": "版本号从6跳到6.1还加个Ultrafast，更新日志里除了名字和形容词，跑分和延迟数据呢？",
-      "title_hash": "95599a93",
-      "scored_at": "2026-10-08T18:24:20.878047Z"
+      "score": 55,
+      "review": "版本号从6跳到6.1还带个'Sol'，速度提升多少？基准呢？只有形容词没有数字。",
+      "title_hash": "5881b85b",
+      "scored_at": "2026-10-08T18:57:38.311956Z"
     },
     "story_d783a04fd0f6|paper-police|966065bf": {
       "score": 30,
-      "review": "仅一条官方 changelog 链接，无论文、无开源、无公开 benchmark，性能宣称无从复现。",
-      "title_hash": "95599a93",
-      "scored_at": "2026-10-08T18:24:21.675034Z"
+      "review": "只有更新日志一句'超快'，无论文无代码无跑分，速度靠嘴说。",
+      "title_hash": "5881b85b",
+      "scored_at": "2026-10-08T18:57:39.094589Z"
+    },
+    "story_2703d8e455a1|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "学术圈口水战，不改变你今天写代码，等真有工具或政策再说。",
+      "title_hash": "324e720e",
+      "scored_at": "2026-10-08T18:57:35.956765Z"
     }
   }
 }
