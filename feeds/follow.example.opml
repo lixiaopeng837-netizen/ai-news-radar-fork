@@ -8,8 +8,6 @@
       <outline text="digiday.com" title="digiday.com" type="rss" xmlUrl="https://digiday.com/feed/" htmlUrl="https://digiday.com" />
       <outline text="socialmediatoday.com" title="socialmediatoday.com" type="rss" xmlUrl="https://www.socialmediatoday.com/feeds/news/" htmlUrl="https://www.socialmediatoday.com" />
       <outline text="adweek.com" title="adweek.com" type="rss" xmlUrl="https://www.adweek.com/feed/" htmlUrl="https://www.adweek.com" />
-      <outline text="marketingweek.com" title="marketingweek.com" type="rss" xmlUrl="https://www.marketingweek.com/feed/" htmlUrl="https://www.marketingweek.com" />
-      <outline text="mumbrella.com.au" title="mumbrella.com.au" type="rss" xmlUrl="https://mumbrella.com.au/feed" htmlUrl="https://mumbrella.com.au" />
     </outline>
     <outline text="英文游戏资讯">
       <outline text="feeds.ign.com" title="feeds.ign.com" type="rss" xmlUrl="https://feeds.ign.com/ign/all" htmlUrl="https://feeds.ign.com" />
