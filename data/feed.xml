@@ -5,15 +5,23 @@
 <link>https://news.learnprompt.pro</link>
 <description>24 小时 AI 更新雷达的策展精选：官方发布、模型上新、高信号讨论。</description>
 <language>zh-cn</language>
-<lastBuildDate>Thu, 08 Oct 2026 18:44:21 +0000</lastBuildDate>
+<lastBuildDate>Fri, 09 Oct 2026 01:32:09 +0000</lastBuildDate>
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="https://news.learnprompt.pro/data/feed.xml"/>
 <item>
-<title>屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists</title>
-<link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
-<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
-<description>无障碍改进，做前端可顺手对齐语义标签，其余人无需行动。（GitHub Changelog）</description>
+<title>Tibo 宣布发布 ChatGPT / Today, we are announcing ChatGPT.</title>
+<link>https://x.com/thsottiaux/status/2108349826727588000</link>
+<guid isPermaLink="true">https://x.com/thsottiaux/status/2108349826727588000</guid>
+<description>ChatGPT 发布本身是里程碑，但这条只是转发官宣，没新功能没价格，动手价值有限。（X：Tibo (@thsottiaux)）</description>
+<category>行业动态</category>
+<pubDate>Fri, 09 Oct 2026 00:12:24 +0000</pubDate>
+</item>
+<item>
+<title>Triage 角色及以上用户现在可以归档拉取请求 / Triage role users or higher can now archive pull requests</title>
+<link>https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests</guid>
+<description>PR 归档权限下放，仓库维护者能少堆一堆僵尸 PR，日常清理更省事。（GitHub Changelog）</description>
 <category>官方更新</category>
-<pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 19:01:42 +0000</pubDate>
 </item>
 <item>
 <title>Oracle 如何借助 ChatGPT 和 Codex 将数日工作缩短至几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex</title>
@@ -32,6 +40,14 @@
 <pubDate>Thu, 08 Oct 2026 02:00:00 +0000</pubDate>
 </item>
 <item>
+<title>屏幕阅读器可将时间线作为列表导航 / Screen readers can navigate timelines as lists</title>
+<link>https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists</guid>
+<description>无障碍改进，做前端可顺手对齐语义标签，其余人无需行动。（GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 16:00:56 +0000</pubDate>
+</item>
+<item>
 <title>Pollo AI 携手 OpenAI，把创意灵感变成 campaign / Pollo AI turns creative ideas into campaigns with OpenAI</title>
 <link>https://openai.com/index/pollo-ai</link>
 <guid isPermaLink="true">https://openai.com/index/pollo-ai</guid>
@@ -40,20 +56,12 @@
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
-<title>草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits</title>
-<link>https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</link>
-<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</guid>
-<description>草稿PR现在占配额，自动化脚本狂开草稿的可能被限流，检查下你的CI流程。（GitHub Changelog）</description>
-<category>官方更新</category>
-<pubDate>Thu, 08 Oct 2026 14:25:53 +0000</pubDate>
-</item>
-<item>
-<title>GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work</title>
-<link>https://developers.openai.com/codex/changelog</link>
-<guid isPermaLink="true">https://developers.openai.com/codex/changelog</guid>
-<description>Codex 里能直接换新模型提速，先拿小任务试延迟和额度再全量切。（OpenAI Codex Changelog）</description>
-<category>官方更新</category>
-<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<title>OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元</title>
+<link>https://www.ithome.com/1/010/751.htm</link>
+<guid isPermaLink="true">https://www.ithome.com/1/010/751.htm</guid>
+<description>营收数字跟你写代码没关系，API 价格和额度才是该看的。（IT之家·人工智能）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 23:02:44 +0000</pubDate>
 </item>
 <item>
 <title>部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域 / Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field</title>
@@ -64,6 +72,22 @@
 <pubDate>Thu, 08 Oct 2026 18:17:07 +0000</pubDate>
 </item>
 <item>
+<title>AI伦理治理再升级:Anthropic划定安全红线，重塑大模型人机交互边界</title>
+<link>https://www.aibase.com/news/31481</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31481</guid>
+<description>安全红线是给合规部门看的，开发者今天不用改一行代码。（AIbase）</description>
+<category>行业动态</category>
+<pubDate>Fri, 09 Oct 2026 01:32:09 +0000</pubDate>
+</item>
+<item>
+<title>草稿 Pull Request 也计入 Pull Request 数量上限 / Draft pull requests count toward pull request limits</title>
+<link>https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</link>
+<guid isPermaLink="true">https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits</guid>
+<description>草稿PR现在占配额，自动化脚本狂开草稿的可能被限流，检查下你的CI流程。（GitHub Changelog）</description>
+<category>官方更新</category>
+<pubDate>Thu, 08 Oct 2026 14:25:53 +0000</pubDate>
+</item>
+<item>
 <title>Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2</title>
 <link>https://x.com/ArtificialAnlys/status/2108236656700768310</link>
 <guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2108236656700768310</guid>
@@ -72,36 +96,36 @@
 <pubDate>Thu, 08 Oct 2026 16:42:42 +0000</pubDate>
 </item>
 <item>
-<title>阶跃首款大模型原生智能体手机定档：一句话调度跑腿，拍张海报就帮你请假</title>
-<link>https://www.aibase.com/news/31479</link>
-<guid isPermaLink="true">https://www.aibase.com/news/31479</guid>
-<description>手机发布会不是给开发者看的，等它开放API或SDK再谈。（AIbase）</description>
-<category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 17:47:58 +0000</pubDate>
-</item>
-<item>
-<title>ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust / Port of the TypeScript compiler, checker and lsp to Rust, by LLM</title>
-<link>https://github.com/pingdotgg/ts-rust</link>
-<guid isPermaLink="true">https://github.com/pingdotgg/ts-rust</guid>
-<description>LLM 移植的 TS 编译器，玩具阶段，别急着换掉 tsc，但值得 clone 看思路。（Hacker News：AI 热帖）</description>
-<category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 17:20:58 +0000</pubDate>
-</item>
-<item>
-<title>Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障 / The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent</title>
-<link>https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent</link>
-<guid isPermaLink="true">https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent</guid>
-<description>生产 Agent 排障工具开源，能 clone 就能试，跑 Agent 的团队值得花半天接一下。（Google Developers Blog（RSS））</description>
+<title>LegalOn 将 Codex 成本砍半，开发速度不减 / LegalOn halves Codex costs while maintaining development speed</title>
+<link>https://openai.com/index/legalon-halves-codex-costs</link>
+<guid isPermaLink="true">https://openai.com/index/legalon-halves-codex-costs</guid>
+<description>官方案例讲怎么省 Codex 账单，做 AI 编码工具成本优化的可以抄思路。（OpenAI News）</description>
 <category>官方更新</category>
-<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index / We’re so proud to have worked alongside @felicis from the very beginning!</title>
-<link>https://x.com/arena/status/2108243026741248348</link>
-<guid isPermaLink="true">https://x.com/arena/status/2108243026741248348</guid>
-<description>融资估值跟写代码没关系，Alignment Index 没细节，等有 API 再说。（X：Arena (@arena)）</description>
+<title>Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名 / Real-world results are in for Claude Haiku 5.5 (High) by @AnthropicAI.</title>
+<link>https://x.com/arena/status/2108286973119230096</link>
+<guid isPermaLink="true">https://x.com/arena/status/2108286973119230096</guid>
+<description>小模型跑分第30名，选型时多一个便宜选项，但没价格和开放细节，先记着。（X：Arena (@arena)）</description>
 <category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 17:08:01 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 20:02:39 +0000</pubDate>
+</item>
+<item>
+<title>AI数学狂飙引发数学界震动：OpenAI一口气发布 722 份难题证明，人类学者陷入验证焦虑</title>
+<link>https://www.aibase.com/news/31485</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31485</guid>
+<description>证明再多也得等同行验证，跟日常写代码没关系，围观即可。（AIbase）</description>
+<category>行业动态</category>
+<pubDate>Fri, 09 Oct 2026 01:32:09 +0000</pubDate>
+</item>
+<item>
+<title>如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频 / How I Generated Live Video with MiniMax H3 on a Single GPU</title>
+<link>https://blog.comfy.org/p/how-i-generated-live-video-with-minimax</link>
+<guid isPermaLink="true">https://blog.comfy.org/p/how-i-generated-live-video-with-minimax</guid>
+<description>单卡实时视频生成有实操教程，想跑本地视频的可以照着试，但先看显存够不够。（Comfy Blog）</description>
+<category>行业动态</category>
+<pubDate>Thu, 08 Oct 2026 19:01:22 +0000</pubDate>
 </item>
 <item>
 <title>Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found</title>
@@ -120,14 +144,6 @@
 <pubDate>Thu, 08 Oct 2026 15:53:13 +0000</pubDate>
 </item>
 <item>
-<title>OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群 / Disrupting AI-enabled “false front” operations</title>
-<link>https://openai.com/index/disrupting-ai-enabled-false-front-operations</link>
-<guid isPermaLink="true">https://openai.com/index/disrupting-ai-enabled-false-front-operations</guid>
-<description>封号通报，跟写代码没关系，知道平台在查滥用就行。（OpenAI News）</description>
-<category>官方更新</category>
-<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
 <title>Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations</title>
 <link>https://claude.dev/blog/building-effective-agent-automations</link>
 <guid isPermaLink="true">https://claude.dev/blog/building-effective-agent-automations</guid>
@@ -136,36 +152,20 @@
 <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
 </item>
 <item>
-<title>Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账 / Confirmed landed across all accounts. How are we doing so far?</title>
-<link>https://x.com/thsottiaux/status/2108040921044639779</link>
-<guid isPermaLink="true">https://x.com/thsottiaux/status/2108040921044639779</guid>
-<description>用户数新高和额度到账，跟你的代码没关系，知道就行。（X：Tibo (@thsottiaux)）</description>
+<title>AI陪伴机器人诱导自残挨饿，Character.AI遭美肯塔基州指控存在重大缺陷</title>
+<link>https://www.aibase.com/news/31490</link>
+<guid isPermaLink="true">https://www.aibase.com/news/31490</guid>
+<description>做陪伴类产品的该看看合规红线，其他人扫一眼即可。（AIbase）</description>
 <category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 03:44:55 +0000</pubDate>
+<pubDate>Fri, 09 Oct 2026 01:32:09 +0000</pubDate>
 </item>
 <item>
-<title>GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot</title>
-<link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
-<guid isPermaLink="true">https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</guid>
-<description>Copilot 里多一个便宜快的模型可选，写补全和跑小任务能省额度，直接切来试。（GitHub Changelog）</description>
-<category>官方更新</category>
-<pubDate>Wed, 07 Oct 2026 20:12:18 +0000</pubDate>
-</item>
-<item>
-<title>腾讯 WorkBuddy 上线独立文件浏览器！本地文档可直接呼叫 AI 处理</title>
-<link>https://www.aibase.com/news/31478</link>
-<guid isPermaLink="true">https://www.aibase.com/news/31478</guid>
-<description>本地文件接 AI 处理，思路实用，但得看是否开放 API 和跨平台，否则只是腾讯生态内的小工具。（AIbase）</description>
+<title>Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index / We’re incredibly proud to continue working with @thehousefund!</title>
+<link>https://x.com/arena/status/2108310714423423254</link>
+<guid isPermaLink="true">https://x.com/arena/status/2108310714423423254</guid>
+<description>融资估值跟写代码没关系，Alignment Index 没细节就先别管。（X：Arena (@arena)）</description>
 <category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 16:54:58 +0000</pubDate>
-</item>
-<item>
-<title>LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock / Agents that can pay: building Restock with Stripe's Link and Managed Deep Agents</title>
-<link>https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link</link>
-<guid isPermaLink="true">https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link</guid>
-<description>智能体接支付是新方向，但目前只是案例博客，没开源代码，先观望。（LangChain：Blog（RSS））</description>
-<category>行业动态</category>
-<pubDate>Thu, 08 Oct 2026 16:21:08 +0000</pubDate>
+<pubDate>Thu, 08 Oct 2026 21:36:59 +0000</pubDate>
 </item>
 </channel>
 </rss>

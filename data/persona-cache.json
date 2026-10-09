@@ -192,6 +192,90 @@
       "review": "学术圈口水战，不改变你今天写代码，等真有工具或政策再说。",
       "title_hash": "324e720e",
       "scored_at": "2026-10-08T18:57:35.956765Z"
+    },
+    "story_a2fc4530694f|pragmatic|0a5c5b24": {
+      "score": 88,
+      "review": "ChatGPT 发布本身是里程碑，但这条只是转发官宣，没新功能没价格，动手价值有限。",
+      "title_hash": "b5383a75",
+      "scored_at": "2026-10-09T01:45:13.049718Z"
+    },
+    "story_02d66470e18a|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "PR 归档权限下放，仓库维护者能少堆一堆僵尸 PR，日常清理更省事。",
+      "title_hash": "bbe54125",
+      "scored_at": "2026-10-09T01:45:14.178650Z"
+    },
+    "story_b5381d350d88|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "营收数字跟你写代码没关系，API 价格和额度才是该看的。",
+      "title_hash": "4b3301d7",
+      "scored_at": "2026-10-09T01:45:15.226927Z"
+    },
+    "story_49504079de8a|pragmatic|0a5c5b24": {
+      "score": 35,
+      "review": "安全红线是给合规部门看的，开发者今天不用改一行代码。",
+      "title_hash": "a8cb0d39",
+      "scored_at": "2026-10-09T01:45:16.201285Z"
+    },
+    "story_65da7bfcfb81|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "官方案例讲怎么省 Codex 账单，做 AI 编码工具成本优化的可以抄思路。",
+      "title_hash": "689eb683",
+      "scored_at": "2026-10-09T01:45:17.066247Z"
+    },
+    "story_bf4fe43036ca|pragmatic|0a5c5b24": {
+      "score": 58,
+      "review": "小模型跑分第30名，选型时多一个便宜选项，但没价格和开放细节，先记着。",
+      "title_hash": "d9976ef4",
+      "scored_at": "2026-10-09T01:45:18.072793Z"
+    },
+    "story_944976238e34|pragmatic|0a5c5b24": {
+      "score": 42,
+      "review": "证明再多也得等同行验证，跟日常写代码没关系，围观即可。",
+      "title_hash": "44397106",
+      "scored_at": "2026-10-09T01:45:19.088337Z"
+    },
+    "story_6e2cc0057ae4|pragmatic|0a5c5b24": {
+      "score": 72,
+      "review": "单卡实时视频生成有实操教程，想跑本地视频的可以照着试，但先看显存够不够。",
+      "title_hash": "06ff3988",
+      "scored_at": "2026-10-09T01:45:20.332812Z"
+    },
+    "story_22dbf5a3027e|pragmatic|0a5c5b24": {
+      "score": 45,
+      "review": "做陪伴类产品的该看看合规红线，其他人扫一眼即可。",
+      "title_hash": "a4f414fc",
+      "scored_at": "2026-10-09T01:45:21.390900Z"
+    },
+    "story_09c3e937aae4|pragmatic|0a5c5b24": {
+      "score": 25,
+      "review": "融资估值跟写代码没关系，Alignment Index 没细节就先别管。",
+      "title_hash": "b57833ac",
+      "scored_at": "2026-10-09T01:45:22.117974Z"
+    },
+    "story_a2fc4530694f|cynic|f4237a62": {
+      "score": 45,
+      "review": "一条推文就敢叫'发布'，产品细节、定价、可用性全无，热度倒是先蹭上了。",
+      "title_hash": "b5383a75",
+      "scored_at": "2026-10-09T01:45:23.025036Z"
+    },
+    "story_a2fc4530694f|paper-police|966065bf": {
+      "score": 20,
+      "review": "一条推文宣布发布，无论文无代码无评测，证据仅限社交平台。",
+      "title_hash": "b5383a75",
+      "scored_at": "2026-10-09T01:45:24.326369Z"
+    },
+    "story_02d66470e18a|cynic|f4237a62": {
+      "score": 72,
+      "review": "权限下放一行代码的事，也能发条 changelog，官方更新门槛真低。",
+      "title_hash": "bbe54125",
+      "scored_at": "2026-10-09T01:45:25.321707Z"
+    },
+    "story_02d66470e18a|paper-police|966065bf": {
+      "score": 78,
+      "review": "官方 changelog 有据可查，但只是权限功能更新，无评测无代码，证据等级到此为止。",
+      "title_hash": "bbe54125",
+      "scored_at": "2026-10-09T01:45:26.353583Z"
     }
   }
 }

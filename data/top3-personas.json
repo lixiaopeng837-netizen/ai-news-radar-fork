@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:57:41.097437Z",
+  "generated_at": "2026-10-09T01:45:26.353642Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -17,42 +17,22 @@
   ],
   "items": [
     {
-      "story_id": "story_d783a04fd0f6",
-      "title": "GPT-6.1 Sol 在 Codex 和 ChatGPT 工作中超快 / GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
-      "url": "https://developers.openai.com/codex/changelog",
+      "story_id": "story_a2fc4530694f",
+      "title": "Tibo 宣布发布 ChatGPT / Today, we are announcing ChatGPT.",
+      "url": "https://x.com/thsottiaux/status/2108349826727588000",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "版本号从6跳到6.1还带个'Sol'，速度提升多少？基准呢？只有形容词没有数字。"
+          "score": 45,
+          "review": "一条推文就敢叫'发布'，产品细节、定价、可用性全无，热度倒是先蹭上了。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "只有更新日志一句'超快'，无论文无代码无跑分，速度靠嘴说。"
+          "score": 20,
+          "review": "一条推文宣布发布，无论文无代码无评测，证据仅限社交平台。"
         },
         "pragmatic": {
-          "score": 82,
-          "review": "Codex 里能直接换新模型提速，先拿小任务试延迟和额度再全量切。"
-        }
-      }
-    },
-    {
-      "story_id": "story_7656d3b30e51",
-      "title": "GitHub Copilot 中的Claude俳句 5.5 / Claude Haiku 5.5 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "版本号从5跳到5.5，changelog却只字不提延迟和价格，这半代升级藏了多少水分？"
-        },
-        "paper-police": {
-          "score": 30,
-          "review": "官方changelog只说上线，无论文无代码无benchmark，性能数字一个没有。"
-        },
-        "pragmatic": {
-          "score": 82,
-          "review": "Copilot 里多一个便宜快的模型可选，写补全和跑小任务能省额度，直接切来试。"
+          "score": 88,
+          "review": "ChatGPT 发布本身是里程碑，但这条只是转发官宣，没新功能没价格，动手价值有限。"
         }
       }
     },
@@ -60,7 +40,7 @@
       "story_id": "story_9d420c28c726",
       "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
       "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-      "rank": 3,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -73,6 +53,26 @@
         "pragmatic": {
           "score": 82,
           "review": "图像模型价格砍半还进前四，做图生图/编辑的可以换供应商省成本了。"
+        }
+      }
+    },
+    {
+      "story_id": "story_02d66470e18a",
+      "title": "Triage 角色及以上用户现在可以归档拉取请求 / Triage role users or higher can now archive pull requests",
+      "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "权限下放一行代码的事，也能发条 changelog，官方更新门槛真低。"
+        },
+        "paper-police": {
+          "score": 78,
+          "review": "官方 changelog 有据可查，但只是权限功能更新，无评测无代码，证据等级到此为止。"
+        },
+        "pragmatic": {
+          "score": 72,
+          "review": "PR 归档权限下放，仓库维护者能少堆一堆僵尸 PR，日常清理更省事。"
         }
       }
     }
